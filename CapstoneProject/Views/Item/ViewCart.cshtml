@@ -1,0 +1,13 @@
+﻿@model IEnumerable<CapstoneProject.Models.CartItemViewModel>
+
+<h3>Your Cart</h3>
+<ul>
+    @foreach (var cartItem in Model)
+    {
+        <li>
+            <span>@cartItem.Item.Name (x@cartItem.Quantity) - $@cartItem.Item.Price</span>
+        </li>
+    }
+</ul>
+
+<p>Total: $@ViewBag.TotalPrice</p>
