@@ -1,0 +1,41 @@
+﻿@* Menu.cshtml *@
+@section Styles {
+    <link rel="stylesheet" href="~/css/menu.css" asp-append-version="true" />
+}
+
+
+<div class="menu-container">
+    <!-- Settings Button -->
+    <div class="settings-button">
+        <a href="@Url.Action("Settings", "Home")">
+            <img src="https://cdn-icons-png.flaticon.com/512/3524/3524659.png" alt="Settings" />
+        </a>
+    </div>
+
+    <!-- Menu Options -->
+    <div class="menu-options">
+        <!-- Option 1: Invoices -->
+        <div class="menu-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/2331/2331970.png" alt="Invoices" />
+            <h3>Invoices</h3>
+            <p>View and manage all invoices.</p>
+            <a href="@Url.Action("Invoices", "Invoice")" class="btn">Enter</a>
+        </div>
+
+        <!-- Option 2: Truck Drivers -->
+        <div class="menu-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/3076/3076122.png" alt="Truck Drivers" />
+            <h3>Truck Drivers</h3>
+            <p>Manage truck drivers and their details.</p>
+            <a href="@Url.Action("TruckerList", "Truck")" class="btn">Enter</a>
+        </div>
+
+        <!-- Option 3: Shop Items -->
+        <div class="menu-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/619/619034.png" alt="Shop Items" />
+            <h3>Shop Items</h3>
+            <p>View all items sold by the shop.</p>
+            <a href="@Url.Action("SelectItems", "Item")" class="btn">Enter</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+﻿@section Styles {
+    <link rel="stylesheet" href="~/css/settings-page.css" asp-append-version="true" />
+}
+
+<div class="settings-container">
+    <!-- Top-right back button -->
+    <div class="back-button">
+        <a href="@Url.Action("Menu", "Home")">
+            <img src="https://cdn-icons-png.flaticon.com/512/860/860790.png" alt="Back to Menu" />
+        </a>
+    </div>
+
+    <!-- Main options -->
+    <div class="settings-options">
+        <!-- Settings Section -->
+        <div class="settings-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/3524/3524659.png" alt="Settings Icon" />
+            <h3>Settings</h3>
+            <p>Configure settings here</p>
+            <a href="@Url.Action("Settings", "Home")" class="btn">Enter</a>
+        </div>
+
+        <!-- Profile Edit Section -->
+        <div class="settings-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Profile Edit Icon" />
+            <h3>Profile Edit</h3>
+            <p>Change your profile picture and more profile options here</p>
+            <a href="@Url.Action("ProfileEdit", "User")" class="btn">Enter</a>
+        </div>
+
+        <!-- User Adding/Role Edit Section -->
+        <div class="settings-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="User Edit Icon" />
+            <h3>User Adding/Role Edit</h3>
+            <p>This option is for Hiring positions and above. Allows for roles and addition of new users.</p>
+            <a href="@Url.Action("UserRoles", "Admin")" class="btn">Enter</a>
+        </div>
+    </div>
+</div>

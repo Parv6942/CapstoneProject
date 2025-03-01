@@ -1,0 +1,49 @@
+﻿@model IEnumerable<CapstoneProject.Models.Trucker>
+@section Styles {
+    <link rel="stylesheet" href="~/css/trucker-list.css" asp-append-version="true" />
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<div class="container">
+    <h2>List of Truckers</h2>
+    <a href="@Url.Action("AddTrucker", "Truck")" class="btn btn-primary mb-3">Add New Trucker</a>
+
+    <!-- Top-right back button -->
+    <div class="back-button">
+        <a href="@Url.Action("Menu", "Home")">
+            <img src="https://cdn-icons-png.flaticon.com/512/860/860790.png" alt="Back to Menu" />
+        </a>
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Trucker ID</th>
+                <th>User Info</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var trucker in Model)
+            {
+                <tr>
+                    <td>@trucker.FirstName</td>
+                    <td>@trucker.LastName</td>
+                    <td>@trucker.TruckerId</td>
+                    <td>
+                        <a href="@Url.Action("TruckerSummary", "Truck", new { truckerId = trucker.Id })">
+                            <button type="button" class="btn btn-info">View Transactions</button>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
