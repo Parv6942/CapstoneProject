@@ -5461,11 +5461,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\CapstoneProject.csproj",
+      "projectUniqueName": "C:\\GIT\\Capstone Project\\CapstoneProject\\CapstoneProject.csproj",
       "projectName": "CapstoneProject",
-      "projectPath": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\CapstoneProject.csproj",
+      "projectPath": "C:\\GIT\\Capstone Project\\CapstoneProject\\CapstoneProject.csproj",
       "packagesPath": "C:\\Users\\oluwa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\obj\\",
+      "outputPath": "C:\\GIT\\Capstone Project\\CapstoneProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

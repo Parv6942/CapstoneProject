@@ -26,6 +26,7 @@ namespace CapstoneProject.Data
                 .WithMany()
                 .HasForeignKey(t => t.ItemId);
 
+            // Git trial 
             modelBuilder.Entity<Trucker>().HasData(
                 new Trucker { Id = 1, FirstName = "Kuljeet", LastName = "Singh Sidhu", TruckerId = "9362", TotalSpent = 0 },
                 new Trucker { Id = 2, FirstName = "Gurpreet", LastName = "Singh Kooner", TruckerId = "9386", TotalSpent = 0 },

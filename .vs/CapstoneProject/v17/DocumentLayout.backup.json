@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Migrations\\20250301184358_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CapstoneProject\\Migrations\\20250301184358_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\oluwa\\onedrive\\desktop\\documents\\school\\notes\\semester 4\\capstones\\capstoneproject\\capstoneproject\\data\\truckerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\data\\truckerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,20 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250301184358_Initial Migration.cs",
-              "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Migrations\\20250301184358_Initial Migration.cs",
-              "RelativeDocumentMoniker": "CapstoneProject\\Migrations\\20250301184358_Initial Migration.cs",
-              "ToolTip": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Migrations\\20250301184358_Initial Migration.cs",
-              "RelativeToolTip": "CapstoneProject\\Migrations\\20250301184358_Initial Migration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T18:43:58.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Invoice.cs",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Models\\Invoice.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\Invoice.cs",
@@ -160,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\site.css",
@@ -173,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Home\\Privacy.cshtml",
@@ -185,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "login.css",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\login.css",
@@ -197,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Login\\Login.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Login\\Login.cshtml",
@@ -209,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Home\\Index.cshtml",
@@ -221,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Invoice.css",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\wwwroot\\css\\Invoice.css",
               "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\Invoice.css",
@@ -233,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "InvoiceViewModel.cs",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Models\\InvoiceViewModel.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\InvoiceViewModel.cs",
@@ -246,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Settings.cshtml",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Home\\Settings.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Home\\Settings.cshtml",
@@ -258,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "ViewCart.cshtml",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Item\\ViewCart.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\ViewCart.cshtml",
@@ -270,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "CartItemViewModel.cs",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Models\\CartItemViewModel.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\CartItemViewModel.cs",
@@ -282,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "_CartPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Item\\_CartPartial.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\_CartPartial.cshtml",
@@ -294,20 +277,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TruckerDbContext.cs",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Data\\TruckerDbContext.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Data\\TruckerDbContext.cs",
               "ToolTip": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Data\\TruckerDbContext.cs",
               "RelativeToolTip": "CapstoneProject\\Data\\TruckerDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwAoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T20:57:30.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Session\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Session\\SessionExtensions.cs",
@@ -319,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "ItemController.cs",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Controllers\\ItemController.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Controllers\\ItemController.cs",
@@ -331,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\CartItem.cs",
@@ -343,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Models\\Item.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\Item.cs",
@@ -355,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Program.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Program.cs",
@@ -367,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "Trucker.cs",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Models\\Trucker.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\Trucker.cs",
@@ -379,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Shared\\_Layout.cshtml",
@@ -391,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Item\\Checkout.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\Checkout.cshtml",
@@ -403,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Menu.cshtml",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Home\\Menu.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Home\\Menu.cshtml",
@@ -415,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "SelectItems.css",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\wwwroot\\css\\SelectItems.css",
               "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\SelectItems.css",
@@ -427,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Invoice.cshtml",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Item\\Invoice.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\Invoice.cshtml",
@@ -439,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "SelectItems.cshtml",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Item\\SelectItems.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\SelectItems.cshtml",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z9zpABmJLx4=",
+  "dgSpecHash": "6MG32VEh4gc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\CapstoneProject.csproj",
+  "projectFilePath": "C:\\GIT\\Capstone Project\\CapstoneProject\\CapstoneProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oluwa\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\oluwa\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
