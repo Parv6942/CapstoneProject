@@ -7,8 +7,10 @@ namespace CapstoneProject.Data
     {
         public DbSet<Trucker> Truckers { get; set; }
         public DbSet<Item> Items { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
-        public DbSet<Invoice> Invoices { get; set; } 
+        public DbSet<Invoice> Invoices { get; set; }
 
         public TruckerDbContext(DbContextOptions<TruckerDbContext> options) : base(options) { }
 
@@ -26,7 +28,35 @@ namespace CapstoneProject.Data
                 .WithMany()
                 .HasForeignKey(t => t.ItemId);
 
-            // Git trial 
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.Trucker)
+                .WithMany()
+                .HasForeignKey(o => o.TruckerId);
+
+            modelBuilder.Entity<OrderItem>()
+                .HasOne(oi => oi.Order)
+                .WithMany(o => o.Items)
+                .HasForeignKey(oi => oi.OrderId);
+
+            modelBuilder.Entity<OrderItem>()
+                .HasOne(oi => oi.Item)
+                .WithMany()
+                .HasForeignKey(oi => oi.ItemId);
+
+            // ✅ Fix FOREIGN KEY Constraint for Invoices Table
+            modelBuilder.Entity<Invoice>()
+                .HasOne(i => i.Order)
+                .WithMany()
+                .HasForeignKey(i => i.OrderId)
+                .OnDelete(DeleteBehavior.Cascade); // ✅ Allow cascading delete for OrderId
+
+            modelBuilder.Entity<Invoice>()
+                .HasOne(i => i.Trucker)
+                .WithMany()
+                .HasForeignKey(i => i.TruckerId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            // ✅ SEED DATA: Truckers
             modelBuilder.Entity<Trucker>().HasData(
                 new Trucker { Id = 1, FirstName = "Kuljeet", LastName = "Singh Sidhu", TruckerId = "9362", TotalSpent = 0 },
                 new Trucker { Id = 2, FirstName = "Gurpreet", LastName = "Singh Kooner", TruckerId = "9386", TotalSpent = 0 },
@@ -153,7 +183,7 @@ namespace CapstoneProject.Data
                 new Trucker { Id = 123, FirstName = "Hardeep", LastName = "Singh", TruckerId = "336", TotalSpent = 0 },
                 new Trucker { Id = 124, FirstName = "Pardeep", LastName = "Singh Grewal", TruckerId = "338", TotalSpent = 0 },
                 new Trucker { Id = 125, FirstName = "Balraj", LastName = "Singh Gill", TruckerId = "340", TotalSpent = 0 },
-                new Trucker { Id = 126, FirstName = "Manveer", LastName = "Singh", TruckerId = "342", TotalSpent = 0 }, 
+                new Trucker { Id = 126, FirstName = "Manveer", LastName = "Singh", TruckerId = "342", TotalSpent = 0 },
                 new Trucker { Id = 127, FirstName = "Pardeep", LastName = "Singh Grewal", TruckerId = "344", TotalSpent = 0 },
                 new Trucker { Id = 128, FirstName = "Bahadur", LastName = "Singh Thiara", TruckerId = "1320", TotalSpent = 0 },
                 new Trucker { Id = 129, FirstName = "Rajvir", LastName = "Singh Sagi", TruckerId = "1339", TotalSpent = 0 },
@@ -185,6 +215,7 @@ namespace CapstoneProject.Data
                 new Trucker { Id = 155, FirstName = "Akshay", LastName = "Kumar", TruckerId = "921154", TotalSpent = 0 }
             );
 
+            // ✅ SEED DATA: Items
             modelBuilder.Entity<Item>().HasData(
                 new Item { Id = 1, Name = "Tire", Price = 120.00m, ImageUrl = "item1.jpg" },
                 new Item { Id = 2, Name = "Oil", Price = 40.00m, ImageUrl = "item2.jpeg" },
@@ -194,3 +225,8 @@ namespace CapstoneProject.Data
         }
     }
 }
+
+
+
+
+

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CapstoneProject.Migrations
 {
     [DbContext(typeof(TruckerDbContext))]
-    [Migration("20250301184358_Initial Migration")]
+    [Migration("20250302230324_Initial Migration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -27,31 +27,29 @@ namespace CapstoneProject.Migrations
 
             modelBuilder.Entity("CapstoneProject.Models.Invoice", b =>
                 {
-                    b.Property<int>("InvoiceID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("InvoiceID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("AssignedDriver")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ItemsPurchased")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("Timestamp")
+                    b.Property<DateTime>("InvoiceDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<decimal>("TotalAmount")
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("TotalPrice")
                         .HasColumnType("decimal(18,2)");
 
-                    b.HasKey("InvoiceID");
+                    b.Property<int>("TruckerId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
+
+                    b.HasIndex("TruckerId");
 
                     b.ToTable("Invoices");
                 });
@@ -108,6 +106,59 @@ namespace CapstoneProject.Migrations
                             Name = "Wiper Blades",
                             Price = 25.00m
                         });
+                });
+
+            modelBuilder.Entity("CapstoneProject.Models.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("TruckerId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TruckerId");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("CapstoneProject.Models.OrderItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ItemId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ItemId");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("OrderItems");
                 });
 
             modelBuilder.Entity("CapstoneProject.Models.Transaction", b =>
@@ -1412,6 +1463,55 @@ namespace CapstoneProject.Migrations
                         });
                 });
 
+            modelBuilder.Entity("CapstoneProject.Models.Invoice", b =>
+                {
+                    b.HasOne("CapstoneProject.Models.Order", "Order")
+                        .WithMany()
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CapstoneProject.Models.Trucker", "Trucker")
+                        .WithMany()
+                        .HasForeignKey("TruckerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Trucker");
+                });
+
+            modelBuilder.Entity("CapstoneProject.Models.Order", b =>
+                {
+                    b.HasOne("CapstoneProject.Models.Trucker", "Trucker")
+                        .WithMany()
+                        .HasForeignKey("TruckerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Trucker");
+                });
+
+            modelBuilder.Entity("CapstoneProject.Models.OrderItem", b =>
+                {
+                    b.HasOne("CapstoneProject.Models.Item", "Item")
+                        .WithMany()
+                        .HasForeignKey("ItemId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CapstoneProject.Models.Order", "Order")
+                        .WithMany("Items")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Item");
+
+                    b.Navigation("Order");
+                });
+
             modelBuilder.Entity("CapstoneProject.Models.Transaction", b =>
                 {
                     b.HasOne("CapstoneProject.Models.Item", "Item")
@@ -1429,6 +1529,11 @@ namespace CapstoneProject.Migrations
                     b.Navigation("Item");
 
                     b.Navigation("Trucker");
+                });
+
+            modelBuilder.Entity("CapstoneProject.Models.Order", b =>
+                {
+                    b.Navigation("Items");
                 });
 
             modelBuilder.Entity("CapstoneProject.Models.Trucker", b =>

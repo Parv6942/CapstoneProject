@@ -3,6 +3,7 @@
 @section Styles {
     <link rel="stylesheet" href="~/css/Invoice.css" asp-append-version="true" />
 }
+
 <div class="container">
     <h2 class="section-title">Invoice</h2>
 
@@ -12,7 +13,6 @@
             <img src="https://cdn-icons-png.flaticon.com/512/860/860790.png" alt="Back to Shop" />
         </a>
     </div>
-
 
     <!-- Trucker Details -->
     <div class="invoice-details">
@@ -38,10 +38,10 @@
                     @foreach (var item in Model.CartItems)
                     {
                         <tr>
-                            <td>@item?.Item?.Name</td>
-                            <td>@item?.Quantity</td>
-                            <td>$@(item?.Item?.Price.ToString("0.00") ?? "N/A")</td>
-                            <td>$@((item?.Item?.Price * item?.Quantity)?.ToString("0.00") ?? "N/A")</td>
+                            <td>@item.Name</td>
+                            <td>@item.Quantity</td>
+                            <td>$@item.Price.ToString("0.00")</td>
+                            <td>$@item.TotalPrice.ToString("0.00")</td>
                         </tr>
                     }
                 }
@@ -51,10 +51,9 @@
                 }
             </tbody>
         </table>
-        <p><strong>Grand Total:</strong> $@(Model?.CartItems?.Sum(i => i.Item.Price * i.Quantity).ToString("0.00") ?? "0.00")</p>
+        <p><strong>Grand Total:</strong> $@(Model?.CartItems?.Sum(i => i.TotalPrice).ToString("0.00") ?? "0.00")</p>
     </div>
 
     <!-- Print Button -->
     <button onclick="window.print();" class="btn btn-primary">Print Invoice</button>
 </div>
-

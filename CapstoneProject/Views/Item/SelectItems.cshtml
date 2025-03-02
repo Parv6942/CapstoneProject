@@ -36,11 +36,12 @@
     <!-- Receipt Section -->
     <div id="receipt-section">
         <h3 class="section-title">Receipt</h3>
-        <div class="receipt-details" id="receipt-details"></div>
+        <div class="receipt-details" id="receipt-details">Loading receipt...</div>
     </div>
 
+
     <!-- Trucker Selection Form -->
-    <form id="truckerForm" method="post" action="@Url.Action("Invoice", "Item")">
+    <form id="truckerForm" method="post" action="@Url.Action("SetTrucker", "Item")">
         <label for="truckerId">Select Trucker:</label>
         <select name="truckerId" id="truckerId" required>
             <option value="">Choose...</option>
@@ -60,27 +61,36 @@
         $(document).ready(function () {
             function updateReceipt() {
                 $.get('/Item/ViewReceipt', function (data) {
-                    $('#receipt-details').html(data);
+                    console.log("Receipt Updated:", data);
+                    $('#receipt-details').html(data); // Ensure this element exists
+                }).fail(function () {
+                    console.log("Error loading receipt");
                 });
             }
 
             $('.add-to-cart').click(function () {
                 var itemId = $(this).data('id');
                 var quantity = $('.quantity-input[data-id="' + itemId + '"]').val();
+
                 $.post('/Item/AddToCart', { itemId: itemId, quantity: quantity }, function () {
                     updateReceipt();
+                }).fail(function () {
+                    console.log("Error adding item to cart");
                 });
             });
 
             $('.remove-from-cart').click(function () {
                 var itemId = $(this).data('id');
-                var quantity = $('.quantity-input[data-id="' + itemId + '"]').val();
-                $.post('/Item/RemoveFromCart', { itemId: itemId, quantity: quantity }, function () {
+
+                $.post('/Item/RemoveFromCart', { itemId: itemId }, function () {
                     updateReceipt();
+                }).fail(function () {
+                    console.log("Error removing item from cart");
                 });
             });
 
-            updateReceipt();
+            updateReceipt(); // Ensure receipt loads initially
         });
     </script>
+
 }

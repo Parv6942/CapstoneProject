@@ -6,22 +6,14 @@ namespace CapstoneProject.Models
 {
     public class Invoice
     {
-        [Key]
-        public int InvoiceID { get; set; }
-
-        [Required]
-        public string ItemsPurchased { get; set; } // JSON string or related table
-
-        [Required]
-        public string AssignedDriver { get; set; }
-
-        [Required]
-        public decimal TotalAmount { get; set; }
-
-        [Required]
-        public DateTime Timestamp { get; set; } = DateTime.Now;
-
-        [Required]
-        public string Status { get; set; } = "Unpaid"; // Default status
+        public int Id { get; set; }
+        public int OrderId { get; set; }
+        public Order Order { get; set; }
+        public int TruckerId { get; set; }
+        public Trucker Trucker { get; set; }
+        public List<CartItemViewModel> CartItems { get; set; }
+        public decimal TotalPrice { get; set; }
+        public DateTime InvoiceDate { get; set; }
     }
+
 }

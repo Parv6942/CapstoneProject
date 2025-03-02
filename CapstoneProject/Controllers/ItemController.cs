@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 using System.Linq;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 
 namespace CapstoneProject.Controllers
 {
@@ -37,71 +38,84 @@ namespace CapstoneProject.Controllers
         [HttpPost]
         public IActionResult AddToCart(int itemId, int quantity)
         {
-            var item = _context.Items.FirstOrDefault(i => i.Id == itemId);
-            if (item == null || quantity < 1) return BadRequest();
+            var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("Cart") ?? new List<CartItem>();
 
-            var cart = GetCartItems();
-            var existingItem = cart.FirstOrDefault(c => c.Item.Id == itemId);
+            var item = _context.Items
+                .AsNoTracking() // ✅ Ensures a fresh copy of the item is retrieved
+                .FirstOrDefault(i => i.Id == itemId);
 
-            if (existingItem != null)
+            if (item != null)
             {
-                existingItem.Quantity += quantity;
-            }
-            else
-            {
-                cart.Add(new CartItemViewModel { Item = item, Quantity = quantity });
-            }
+                var existingItem = cart.FirstOrDefault(c => c.Item != null && c.Item.Id == itemId);
+                if (existingItem != null)
+                {
+                    existingItem.Quantity += quantity;
+                }
+                else
+                {
+                    cart.Add(new CartItem
+                    {
+                        Item = new Item
+                        {
+                            Id = item.Id,
+                            Name = item.Name,
+                            Price = item.Price,
+                            ImageUrl = item.ImageUrl // ✅ Ensures all properties are stored
+                        },
+                        Quantity = quantity
+                    });
+                }
 
-            HttpContext.Session.SetObjectAsJson("Cart", cart);
-
-            return Json(new { success = true });
+                HttpContext.Session.SetObjectAsJson("Cart", cart);
+            }
+            return Ok();
         }
 
         [HttpPost]
-        public IActionResult RemoveFromCart(int itemId, int quantity)
+        public IActionResult SetTrucker(int truckerId)
         {
-            var cart = GetCartItems();
-            var existingItem = cart.FirstOrDefault(c => c.Item.Id == itemId);
+            var trucker = _context.Truckers.FirstOrDefault(t => t.Id == truckerId);
 
-            if (existingItem != null)
+            if (trucker != null)
             {
-                existingItem.Quantity -= quantity;
-                if (existingItem.Quantity <= 0) cart.Remove(existingItem);
+                HttpContext.Session.SetInt32("SelectedTruckerId", truckerId);
             }
 
-            HttpContext.Session.SetObjectAsJson("Cart", cart);
-
-            return Json(new { success = true });
+            return RedirectToAction("Checkout"); // Redirect to checkout after selection
         }
 
-        public IActionResult ViewCart()
-        {
-            var cartItems = GetCartItems();
-            return PartialView("_CartPartial", cartItems);
-        }
 
-        public IActionResult GetTotalPrice()
+        [HttpPost]
+        public IActionResult RemoveFromCart(int itemId)
         {
             var cart = GetCartItems();
-            decimal totalPrice = cart.Sum(item => item.Item.Price * item.Quantity);
-            return Json(new { totalPrice = totalPrice.ToString("0.00") });
+            cart.RemoveAll(c => c.ItemId == itemId);
+            HttpContext.Session.SetObjectAsJson("Cart", cart);
+            return Ok();
         }
 
         public IActionResult ViewReceipt()
         {
-            var cartItems = GetCartItems();
-            if (cartItems == null || !cartItems.Any()) return Content("<p>No items in the cart.</p>");
+            var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("Cart") ?? new List<CartItem>();
 
-            decimal totalPrice = cartItems.Sum(item => item.Item.Price * item.Quantity);
-
-            string receiptHtml = "<ul>";
-            foreach (var item in cartItems)
+            if (cart == null || !cart.Any())
             {
-                receiptHtml += $"<li>{item.Item.Name} x {item.Quantity} - ${(item.Item.Price * item.Quantity).ToString("0.00")}</li>";
+                return Content("<p>Your cart is empty.</p>", "text/html");
             }
-            receiptHtml += $"</ul><p><strong>Total:</strong> ${totalPrice.ToString("0.00")}</p>";
 
-            return Content(receiptHtml);
+            string receiptHtml = "<table class='table'><tr><th>Item</th><th>Quantity</th><th>Price</th><th>Total</th></tr>";
+
+            foreach (var cartItem in cart)
+            {
+                if (cartItem.Item != null) // ✅ Ensures Item is not null
+                {
+                    receiptHtml += $"<tr><td>{cartItem.Item.Name}</td><td>{cartItem.Quantity}</td><td>${cartItem.Item.Price}</td><td>${cartItem.Item.Price * cartItem.Quantity}</td></tr>";
+                }
+            }
+
+            receiptHtml += "</table>";
+
+            return Content(receiptHtml, "text/html");
         }
 
         [HttpPost]
@@ -116,7 +130,7 @@ namespace CapstoneProject.Controllers
                 return RedirectToAction("SelectItems");
             }
 
-            decimal totalPrice = cartItems.Sum(item => item.Item.Price * item.Quantity);
+            decimal totalPrice = cartItems.Sum(item => item.TotalPrice);
 
             var invoiceViewModel = new InvoiceViewModel
             {
@@ -125,16 +139,113 @@ namespace CapstoneProject.Controllers
                 TotalPrice = totalPrice
             };
 
-            // Clear cart after generating invoice
-            HttpContext.Session.Remove("Cart");
+            return View("Invoice", invoiceViewModel);
+        }
 
-            return View("Invoice", invoiceViewModel); // Render the Invoice view with the model
+        public IActionResult Checkout()
+        {
+            var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("Cart") ?? new List<CartItem>();
+            var selectedTruckerId = HttpContext.Session.GetInt32("SelectedTruckerId");
+
+            var cartViewModel = cart.Select(c => new CartItemViewModel
+            {
+                ItemId = c.Item.Id,
+                Name = c.Item.Name,
+                Price = c.Item.Price,
+                Quantity = c.Quantity,
+                TotalPrice = c.Item.Price * c.Quantity
+            }).ToList();
+
+            var trucker = _context.Truckers.FirstOrDefault(t => t.Id == selectedTruckerId);
+            ViewBag.SelectedTrucker = trucker;
+
+            return View(cartViewModel);
+        }
+
+        [HttpPost]
+        public IActionResult ConfirmOrder(int truckerId)
+        {
+            var cart = GetCartItems();
+            var trucker = _context.Truckers.FirstOrDefault(t => t.Id == truckerId);
+
+            if (!cart.Any() || trucker == null)
+            {
+                TempData["Error"] = "Invalid order request.";
+                return RedirectToAction("SelectItems");
+            }
+
+            // Save Order to Database
+            var order = new Order
+            {
+                TruckerId = truckerId,
+                Items = cart.Select(c => new OrderItem
+                {
+                    ItemId = c.ItemId,
+                    Quantity = c.Quantity,
+                    Price = c.Price
+                }).ToList(),
+                TotalPrice = cart.Sum(c => c.TotalPrice),
+                OrderDate = DateTime.Now
+            };
+
+            _context.Orders.Add(order);
+            _context.SaveChanges(); // ✅ Stores the order in the database
+
+            // Create Invoice
+            var invoice = new Invoice
+            {
+                OrderId = order.Id,
+                Trucker = trucker,
+                CartItems = cart,
+                TotalPrice = order.TotalPrice,
+                InvoiceDate = DateTime.Now
+            };
+
+            _context.Invoices.Add(invoice);
+            _context.SaveChanges(); // ✅ Stores the invoice in the database
+
+            HttpContext.Session.Remove("Cart"); // Clear cart after order confirmation
+
+            // Redirect to Order Confirmation with Invoice ID
+            return RedirectToAction("OrderConfirmation", new { invoiceId = invoice.Id });
+        }
+
+        public IActionResult OrderConfirmation(int invoiceId)
+        {
+            var invoice = _context.Invoices
+                .Include(i => i.Trucker)
+                .Include(i => i.CartItems)
+                .FirstOrDefault(i => i.Id == invoiceId);
+
+            if (invoice == null)
+            {
+                TempData["Error"] = "Invoice not found.";
+                return RedirectToAction("SelectItems");
+            }
+
+            return View(invoice); // ✅ Passes Invoice data to the View
+        }
+        public IActionResult ViewInvoice(int id)
+        {
+            var invoice = _context.Invoices
+                .Include(i => i.Trucker)
+                .Include(i => i.CartItems)
+                .FirstOrDefault(i => i.Id == id);
+
+            if (invoice == null)
+            {
+                TempData["Error"] = "Invoice not found.";
+                return RedirectToAction("SelectItems");
+            }
+
+            return View(invoice);
         }
 
 
         private List<CartItemViewModel> GetCartItems()
         {
-            return HttpContext.Session.GetObjectFromJson<List<CartItemViewModel>>("Cart") ?? new List<CartItemViewModel>();
+            var cart = HttpContext.Session.GetObjectFromJson<List<CartItemViewModel>>("Cart") ?? new List<CartItemViewModel>();
+            return cart;
         }
     }
 }
