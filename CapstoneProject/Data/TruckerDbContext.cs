@@ -29,9 +29,9 @@ namespace CapstoneProject.Data
                 .HasForeignKey(t => t.ItemId);
 
             modelBuilder.Entity<Order>()
-                .HasOne(o => o.Trucker)
-                .WithMany()
-                .HasForeignKey(o => o.TruckerId);
+    .HasOne(o => o.Trucker)
+    .WithMany()
+    .HasForeignKey(o => o.TruckerId);
 
             modelBuilder.Entity<OrderItem>()
                 .HasOne(oi => oi.Order)
@@ -43,7 +43,6 @@ namespace CapstoneProject.Data
                 .WithMany()
                 .HasForeignKey(oi => oi.ItemId);
 
-            // ✅ Fix FOREIGN KEY Constraint for Invoices Table
             modelBuilder.Entity<Invoice>()
                 .HasOne(i => i.Order)
                 .WithMany()

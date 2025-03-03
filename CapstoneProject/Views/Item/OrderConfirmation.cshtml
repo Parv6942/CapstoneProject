@@ -1,9 +1,6 @@
 ﻿@model CapstoneProject.Models.Invoice
 
-<h2>Order Confirmation</h2>
-<p>Thank you for your order! Your invoice details are below:</p>
-
-<h3>Invoice</h3>
+<h2>Invoice Details</h2>
 <p><strong>Invoice ID:</strong> @Model.Id</p>
 <p><strong>Trucker:</strong> @Model.Trucker.FullName</p>
 <p><strong>Date:</strong> @Model.InvoiceDate.ToString("MMMM dd, yyyy")</p>
@@ -18,20 +15,19 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var cartItem in Model.CartItems)
+        @foreach (var orderItem in Model.Order.Items)
         {
-                <tr>
-                    <td>@cartItem.Name</td>
-                    <td>@cartItem.Quantity</td>
-                    <td>$@cartItem.Price.ToString("0.00")</td>
-                    <td>$@cartItem.TotalPrice.ToString("0.00")</td>
-                </tr>
+            <tr>
+                <td>@orderItem.Item.Name</td>
+                <td>@orderItem.Quantity</td>
+                <td>$@orderItem.Price.ToString("0.00")</td>
+                <td>$@(orderItem.Price * orderItem.Quantity).ToString("0.00")</td>
+            </tr>
         }
     </tbody>
 </table>
 
 <p><strong>Grand Total:</strong> $@Model.TotalPrice.ToString("0.00")</p>
 
-<a href="@Url.Action("ViewInvoice", "Invoice", new { id = Model.Id })" class="btn btn-primary">View Invoice</a>
-
+<a href="@Url.Action("AllInvoices", "Invoice")" class="btn btn-secondary">View All Invoices</a>
 <a href="@Url.Action("SelectItems", "Item")" class="btn btn-secondary">Back to Shop</a>

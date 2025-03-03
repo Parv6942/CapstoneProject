@@ -15,14 +15,21 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var cartItem in Model.CartItems)
+        @if (Model?.Order?.Items != null && Model.Order.Items.Any())
         {
-            <tr>
-                <td>@cartItem.Name</td>
-                <td>@cartItem.Quantity</td>
-                <td>$@cartItem.Price.ToString("0.00")</td>
-                <td>$@cartItem.TotalPrice.ToString("0.00")</td>
-            </tr>
+            @foreach (var item in Model.Order.Items)
+            {
+                <tr>
+                    <td>@item.Item.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>$@item.Price.ToString("0.00")</td>
+                    <td>$@((item.Price * item.Quantity).ToString("0.00"))</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr><td colspan="4">No items in the invoice.</td></tr>
         }
     </tbody>
 </table>

@@ -15,12 +15,42 @@ namespace CapstoneProject.Controllers
             _context = context;
         }
 
-        // ✅ Display a specific invoice
+        public IActionResult GenerateInvoice(int orderId)
+        {
+            var order = _context.Orders
+                .Include(o => o.Trucker)
+                .Include(o => o.Items)
+                .ThenInclude(oi => oi.Item)
+                .FirstOrDefault(o => o.Id == orderId);
+
+            if (order == null)
+            {
+                TempData["Error"] = "Order not found.";
+                return RedirectToAction("SelectItems", "Item");
+            }
+
+            var invoice = new Invoice
+            {
+                OrderId = order.Id,
+                TruckerId = order.TruckerId,
+                TotalPrice = order.Items.Sum(oi => oi.Quantity * oi.Price), // ✅ Correct total calculation
+                InvoiceDate = DateTime.Now
+            };
+
+            _context.Invoices.Add(invoice);
+            _context.SaveChanges();
+
+            return RedirectToAction("ViewInvoice", "Invoice", new { id = invoice.Id });
+        }
+
+
         public IActionResult ViewInvoice(int id)
         {
             var invoice = _context.Invoices
                 .Include(i => i.Trucker)
-                .Include(i => i.CartItems)
+                .Include(i => i.Order)
+                .ThenInclude(o => o.Items)
+                .ThenInclude(oi => oi.Item)
                 .FirstOrDefault(i => i.Id == id);
 
             if (invoice == null)
@@ -32,7 +62,6 @@ namespace CapstoneProject.Controllers
             return View(invoice);
         }
 
-        // ✅ Show all invoices (For admin or customer history)
         public IActionResult AllInvoices()
         {
             var invoices = _context.Invoices

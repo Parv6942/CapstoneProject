@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CapstoneProject.Models.CartItemViewModel>
+﻿@model IEnumerable<CapstoneProject.Models.CartItem>
 
 <h2>Checkout</h2>
 @if (ViewBag.SelectedTrucker != null)
@@ -22,17 +22,23 @@ else
         @foreach (var cartItem in Model)
         {
             <tr>
-                <td>@cartItem.Name</td>
+                <td>@cartItem.Item.Name</td>
                 <td>@cartItem.Quantity</td>
-                <td>$@cartItem.Price.ToString("0.00")</td>
-                <td>$@cartItem.TotalPrice.ToString("0.00")</td>
+                <td>$@cartItem.Item.Price.ToString("0.00")</td>
+                <td>$@((cartItem.Item.Price * cartItem.Quantity).ToString("0.00"))</td> <!-- ✅ Fixed Here -->
             </tr>
         }
     </tbody>
 </table>
 
-<p><strong>Grand Total:</strong> $@Model.Sum(i => i.TotalPrice).ToString("0.00")</p>
+<p><strong>Grand Total:</strong> $@Model.Sum(i => i.Item.Price * i.Quantity).ToString("0.00")</p>
 
 <form method="post" action="@Url.Action("ConfirmOrder", "Item")">
     <button type="submit" class="btn btn-success">Confirm Order</button>
 </form>
+
+
+
+
+
+

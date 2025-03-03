@@ -3,16 +3,64 @@
   "WorkspaceRootPath": "C:\\GIT\\Capstone Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GIT\\Capstone Project\\CapstoneProject\\Migrations\\20250302230324_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CapstoneProject\\Migrations\\20250302230324_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\views\\invoice\\viewinvoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\invoice\\viewinvoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\models\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\views\\invoice\\allinvoices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\invoice\\allinvoices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\views\\item\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\views\\item\\selectitems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\selectitems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\views\\item\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\data\\truckerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\data\\truckerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\controllers\\truckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\controllers\\truckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\migrations\\20250302230324_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\migrations\\20250302230324_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GIT\\Capstone Project\\CapstoneProject\\Migrations\\20250302225413_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\models\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\models\\trucker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,44 +83,12 @@
       "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\controllers\\truckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\controllers\\truckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\views\\invoice\\allinvoices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\invoice\\allinvoices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\views\\invoice\\viewinvoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\invoice\\viewinvoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\views\\item\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\views\\item\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\views\\item\\selectitems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\selectitems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\views\\item\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -87,16 +99,8 @@
       "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\_cartpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\views\\item\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\session\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\session\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\git\\capstone project\\capstoneproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -150,7 +154,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,20 +174,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "CapstoneProject\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T16:47:31.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CapstoneProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T16:46:47.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "20250302230324_Initial Migration.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Migrations\\20250302230324_Initial Migration.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Migrations\\20250302230324_Initial Migration.cs",
               "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Migrations\\20250302230324_Initial Migration.cs",
               "RelativeToolTip": "CapstoneProject\\Migrations\\20250302230324_Initial Migration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T23:03:24.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "20250302225413_Initial Migration.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Migrations\\20250302225413_Initial Migration.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Migrations\\20250302225413_Initial Migration.cs",
@@ -191,12 +221,11 @@
               "RelativeToolTip": "CapstoneProject\\Migrations\\20250302225413_Initial Migration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T22:54:13.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T22:54:13.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\Transaction.cs",
@@ -204,25 +233,24 @@
               "RelativeToolTip": "CapstoneProject\\Models\\Transaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T22:43:43.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T22:43:43.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "TruckController.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Controllers\\TruckController.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Controllers\\TruckController.cs",
               "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Controllers\\TruckController.cs",
               "RelativeToolTip": "CapstoneProject\\Controllers\\TruckController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAIwEIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAwwHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T22:35:25.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\OrderItem.cs",
@@ -230,12 +258,11 @@
               "RelativeToolTip": "CapstoneProject\\Models\\OrderItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T22:33:12.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T22:33:12.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Models\\Order.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\Order.cs",
@@ -243,64 +270,63 @@
               "RelativeToolTip": "CapstoneProject\\Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T22:32:20.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T22:32:20.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "AllInvoices.cshtml",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Invoice\\AllInvoices.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Invoice\\AllInvoices.cshtml",
               "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Invoice\\AllInvoices.cshtml",
               "RelativeToolTip": "CapstoneProject\\Views\\Invoice\\AllInvoices.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-02T22:29:34.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
               "Title": "ViewInvoice.cshtml",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Invoice\\ViewInvoice.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Invoice\\ViewInvoice.cshtml",
               "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Invoice\\ViewInvoice.cshtml",
               "RelativeToolTip": "CapstoneProject\\Views\\Invoice\\ViewInvoice.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-02T22:29:01.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "OrderConfirmation.cshtml",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Item\\OrderConfirmation.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\OrderConfirmation.cshtml",
               "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Item\\OrderConfirmation.cshtml",
               "RelativeToolTip": "CapstoneProject\\Views\\Item\\OrderConfirmation.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-02T22:25:48.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "InvoiceController.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Controllers\\InvoiceController.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Controllers\\InvoiceController.cs",
               "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Controllers\\InvoiceController.cs",
               "RelativeToolTip": "CapstoneProject\\Controllers\\InvoiceController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswD4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T00:16:32.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Invoice.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Models\\Invoice.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\Invoice.cs",
@@ -313,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "site.css",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\site.css",
@@ -325,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Home\\Privacy.cshtml",
@@ -337,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "login.css",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\login.css",
@@ -349,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Login\\Login.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Login\\Login.cshtml",
@@ -361,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Home\\Index.cshtml",
@@ -373,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Invoice.css",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\wwwroot\\css\\Invoice.css",
               "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\Invoice.css",
@@ -385,20 +411,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "InvoiceViewModel.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Models\\InvoiceViewModel.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\InvoiceViewModel.cs",
               "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Models\\InvoiceViewModel.cs",
               "RelativeToolTip": "CapstoneProject\\Models\\InvoiceViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T22:53:58.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Settings.cshtml",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Home\\Settings.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Home\\Settings.cshtml",
@@ -410,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "ViewCart.cshtml",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Item\\ViewCart.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\ViewCart.cshtml",
@@ -418,12 +444,11 @@
               "RelativeToolTip": "CapstoneProject\\Views\\Item\\ViewCart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-13T21:24:23.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T21:24:23.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "CartItemViewModel.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Models\\CartItemViewModel.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\CartItemViewModel.cs",
@@ -431,12 +456,11 @@
               "RelativeToolTip": "CapstoneProject\\Models\\CartItemViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T21:21:52.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T21:21:52.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "_CartPartial.cshtml",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Item\\_CartPartial.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\_CartPartial.cshtml",
@@ -444,25 +468,24 @@
               "RelativeToolTip": "CapstoneProject\\Views\\Item\\_CartPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-13T21:15:14.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T21:15:14.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "TruckerDbContext.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Data\\TruckerDbContext.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Data\\TruckerDbContext.cs",
               "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Data\\TruckerDbContext.cs",
               "RelativeToolTip": "CapstoneProject\\Data\\TruckerDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA4wBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwvzcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T20:57:30.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Session\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Session\\SessionExtensions.cs",
@@ -470,37 +493,37 @@
               "RelativeToolTip": "CapstoneProject\\Session\\SessionExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T20:44:45.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:44:45.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
               "Title": "ItemController.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Controllers\\ItemController.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Controllers\\ItemController.cs",
               "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Controllers\\ItemController.cs",
               "RelativeToolTip": "CapstoneProject\\Controllers\\ItemController.cs",
-              "ViewState": "AgIAAM0AAAAAAAAAAAAkwPIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAuwJkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T18:20:18.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 8,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\CartItem.cs",
               "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Models\\CartItem.cs",
               "RelativeToolTip": "CapstoneProject\\Models\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T20:29:44.963Z"
+              "WhenOpened": "2025-02-13T20:29:44.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Models\\Item.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\Item.cs",
@@ -512,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Program.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Program.cs",
@@ -524,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "Trucker.cs",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Models\\Trucker.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\Trucker.cs",
@@ -532,12 +555,11 @@
               "RelativeToolTip": "CapstoneProject\\Models\\Trucker.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAlwBYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T19:50:32.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T19:50:32.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Shared\\_Layout.cshtml",
@@ -549,20 +571,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 6,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Item\\Checkout.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\Checkout.cshtml",
               "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Item\\Checkout.cshtml",
               "RelativeToolTip": "CapstoneProject\\Views\\Item\\Checkout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-13T18:26:48.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "Menu.cshtml",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Home\\Menu.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Home\\Menu.cshtml",
@@ -570,12 +592,11 @@
               "RelativeToolTip": "CapstoneProject\\Views\\Home\\Menu.cshtml",
               "ViewState": "AgIAAAsAAAAAAAAAAAAwwBAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-13T18:19:19.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T18:19:19.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "SelectItems.css",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\wwwroot\\css\\SelectItems.css",
               "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\SelectItems.css",
@@ -587,26 +608,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Invoice.cshtml",
-              "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Item\\Invoice.cshtml",
-              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\Invoice.cshtml",
-              "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Item\\Invoice.cshtml",
-              "RelativeToolTip": "CapstoneProject\\Views\\Item\\Invoice.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-14T15:10:35.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 7,
               "Title": "SelectItems.cshtml",
               "DocumentMoniker": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Item\\SelectItems.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\SelectItems.cshtml",
               "ToolTip": "C:\\GIT\\Capstone Project\\CapstoneProject\\Views\\Item\\SelectItems.cshtml",
               "RelativeToolTip": "CapstoneProject\\Views\\Item\\SelectItems.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-13T18:16:23.807Z",
               "EditorCaption": ""
