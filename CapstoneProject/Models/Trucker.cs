@@ -1,25 +1,28 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace CapstoneProject.Models
 {
     public class Trucker
     {
+        [Key]
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "First Name is required.")]
         [StringLength(50)]
         public string FirstName { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Last Name is required.")]
         [StringLength(50)]
         public string LastName { get; set; }
+
+        // Computed property for convenience
         public string FullName => $"{FirstName} {LastName}";
 
 
-        [Required]
-        [StringLength(20)]
-        public string TruckerId { get; set; }
-        public decimal TotalSpent { get; set; }
-        public virtual ICollection<Transaction> Transactions { get; set; }
+
+        // Navigation properties
+        public virtual ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
+        public ICollection<Truck> Trucks { get; set; } = new List<Truck>();
     }
 }
