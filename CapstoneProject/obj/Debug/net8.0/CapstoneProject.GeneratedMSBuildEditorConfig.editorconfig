@@ -52,6 +52,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxWaWV3SW52b2ljZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/GIT/Capstone Project/CapstoneProject/Views/Item/AdminCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxBZG1pbkNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/Capstone Project/CapstoneProject/Views/Item/AdminDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxBZG1pbkRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/Capstone Project/CapstoneProject/Views/Item/AdminEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxBZG1pbkVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GIT/Capstone Project/CapstoneProject/Views/Item/AdminIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxBZG1pbkluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/GIT/Capstone Project/CapstoneProject/Views/Item/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxDaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

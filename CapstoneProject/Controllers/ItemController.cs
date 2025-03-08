@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 using System.Linq;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace CapstoneProject.Controllers
 {
@@ -17,6 +18,8 @@ namespace CapstoneProject.Controllers
         {
             _context = context;
         }
+
+        // Customer-Facing Actions
 
         public IActionResult SelectItems()
         {
@@ -41,11 +44,17 @@ namespace CapstoneProject.Controllers
             var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("Cart") ?? new List<CartItem>();
 
             var item = _context.Items
-                .AsNoTracking() // ✅ Ensures a fresh copy of the item is retrieved
+                .AsNoTracking() // get a fresh copy
                 .FirstOrDefault(i => i.Id == itemId);
 
             if (item != null)
             {
+                // Optionally, check if requested quantity is available:
+                if (item.Quantity < quantity)
+                {
+                    return BadRequest("Insufficient stock for the selected item.");
+                }
+
                 var existingItem = cart.FirstOrDefault(c => c.Item != null && c.Item.Id == itemId);
                 if (existingItem != null)
                 {
@@ -55,12 +64,14 @@ namespace CapstoneProject.Controllers
                 {
                     cart.Add(new CartItem
                     {
+                        // Store a copy of the item
                         Item = new Item
                         {
                             Id = item.Id,
                             Name = item.Name,
                             Price = item.Price,
-                            ImageUrl = item.ImageUrl // ✅ Ensures all properties are stored
+                            ImageUrl = item.ImageUrl,
+                            Quantity = item.Quantity // available quantity (for reference)
                         },
                         Quantity = quantity
                     });
@@ -81,9 +92,8 @@ namespace CapstoneProject.Controllers
                 HttpContext.Session.SetInt32("SelectedTruckerId", truckerId);
             }
 
-            return RedirectToAction("Checkout"); 
+            return RedirectToAction("Checkout");
         }
-
 
         [HttpPost]
         public IActionResult RemoveFromCart(int itemId)
@@ -141,15 +151,16 @@ namespace CapstoneProject.Controllers
 
             return View("Invoice", invoiceViewModel);
         }
+
         public IActionResult Checkout()
         {
             var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("Cart") ?? new List<CartItem>();
             var selectedTruckerId = HttpContext.Session.GetInt32("SelectedTruckerId");
 
             var trucker = _context.Truckers.FirstOrDefault(t => t.Id == selectedTruckerId);
-            ViewBag.SelectedTrucker = trucker; // ✅ Pass trucker to view
+            ViewBag.SelectedTrucker = trucker; // pass trucker to view
 
-            return View(cart); // ✅ Pass List<CartItem> instead of List<CartItemViewModel>
+            return View(cart);
         }
 
         [HttpPost]
@@ -171,7 +182,24 @@ namespace CapstoneProject.Controllers
                 return RedirectToAction("SelectItems");
             }
 
-            // ✅ Save Order to Database
+            // Validate stock and update inventory
+            foreach (var cartItem in cart)
+            {
+                var itemInDb = _context.Items.FirstOrDefault(i => i.Id == cartItem.Item.Id);
+                if (itemInDb != null)
+                {
+                    if (itemInDb.Quantity < cartItem.Quantity)
+                    {
+                        TempData["Error"] = $"Not enough stock for {itemInDb.Name}.";
+                        return RedirectToAction("SelectItems");
+                    }
+                    // Subtract the purchased quantity
+                    itemInDb.Quantity -= cartItem.Quantity;
+                    _context.Items.Update(itemInDb);
+                }
+            }
+
+            // Save Order to Database
             var order = new Order
             {
                 TruckerId = trucker.Id,
@@ -186,9 +214,9 @@ namespace CapstoneProject.Controllers
             };
 
             _context.Orders.Add(order);
-            _context.SaveChanges(); // ✅ Save Order
+            _context.SaveChanges();
 
-            // ✅ Create Invoice
+            // Create Invoice
             var invoice = new Invoice
             {
                 OrderId = order.Id,
@@ -199,9 +227,9 @@ namespace CapstoneProject.Controllers
             };
 
             _context.Invoices.Add(invoice);
-            _context.SaveChanges(); // ✅ Save Invoice
+            _context.SaveChanges();
 
-            HttpContext.Session.Remove("Cart"); // ✅ Clear cart after checkout
+            HttpContext.Session.Remove("Cart"); // Clear cart
 
             return RedirectToAction("ViewInvoice", "Invoice", new { id = invoice.Id });
         }
@@ -222,11 +250,96 @@ namespace CapstoneProject.Controllers
             return View(invoice);
         }
 
-
         private List<CartItemViewModel> GetCartItems()
         {
             var cart = HttpContext.Session.GetObjectFromJson<List<CartItemViewModel>>("Cart") ?? new List<CartItemViewModel>();
             return cart;
         }
+
+        public IActionResult AdminIndex()
+        {
+            var items = _context.Items.ToList();
+            return View(items);
+        }
+
+        public IActionResult AdminCreate()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AdminCreate(Item item)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Items.Add(item);
+                _context.SaveChanges();
+                return RedirectToAction("AdminIndex");
+            }
+            return View(item);
+        }
+
+        public IActionResult AdminEdit(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var item = _context.Items.Find(id);
+            if (item == null)
+                return NotFound();
+
+            return View(item);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AdminEdit(int id, Item item)
+        {
+            if (id != item.Id)
+                return NotFound();
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(item);
+                    _context.SaveChanges();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!_context.Items.Any(e => e.Id == item.Id))
+                        return NotFound();
+                    else
+                        throw;
+                }
+                return RedirectToAction("AdminIndex");
+            }
+            return View(item);
+        }
+
+        public IActionResult AdminDelete(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var item = _context.Items.FirstOrDefault(i => i.Id == id);
+            if (item == null)
+                return NotFound();
+
+            return View(item);
+        }
+
+        // POST: Item/AdminDelete/{id}
+        [HttpPost, ActionName("AdminDelete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult AdminDeleteConfirmed(int id)
+        {
+            var item = _context.Items.Find(id);
+            _context.Items.Remove(item);
+            _context.SaveChanges();
+            return RedirectToAction("AdminIndex");
+        }
+
     }
 }

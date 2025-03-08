@@ -21,7 +21,8 @@ namespace CapstoneProject.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Quantity = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -169,13 +170,13 @@ namespace CapstoneProject.Migrations
 
             migrationBuilder.InsertData(
                 table: "Items",
-                columns: new[] { "Id", "ImageUrl", "Name", "Price" },
+                columns: new[] { "Id", "ImageUrl", "Name", "Price", "Quantity" },
                 values: new object[,]
                 {
-                    { 1, "item1.jpg", "Tire", 120.00m },
-                    { 2, "item2.jpeg", "Oil", 40.00m },
-                    { 3, "item3.jpg", "Brake Pads", 70.00m },
-                    { 4, "item4.jpg", "Wiper Blades", 25.00m }
+                    { 1, "item1.jpg", "Tire", 120.00m, 0 },
+                    { 2, "item2.jpeg", "Oil", 40.00m, 0 },
+                    { 3, "item3.jpg", "Brake Pads", 70.00m, 0 },
+                    { 4, "item4.jpg", "Wiper Blades", 25.00m, 0 }
                 });
 
             migrationBuilder.InsertData(

@@ -1,0 +1,25 @@
+﻿@model CapstoneProject.Models.Item
+
+@{
+    ViewData["Title"] = "Delete Item";
+}
+
+<h1>Delete Item</h1>
+
+<h3>Are you sure you want to delete this item?</h3>
+
+<div>
+    <h4>@Model.Name</h4>
+    <p>Price: @Model.Price.ToString("C")</p>
+    <p>Quantity: @Model.Quantity</p>
+    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+    {
+        <img src="~/images/@Model.ImageUrl" alt="@Model.Name" width="100" />
+    }
+</div>
+
+<form asp-action="AdminDelete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="AdminIndex" class="btn btn-secondary">Cancel</a>
+</form>

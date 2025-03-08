@@ -70,6 +70,9 @@ namespace CapstoneProject.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.ToTable("Items");
@@ -80,28 +83,32 @@ namespace CapstoneProject.Migrations
                             Id = 1,
                             ImageUrl = "item1.jpg",
                             Name = "Tire",
-                            Price = 120.00m
+                            Price = 120.00m,
+                            Quantity = 0
                         },
                         new
                         {
                             Id = 2,
                             ImageUrl = "item2.jpeg",
                             Name = "Oil",
-                            Price = 40.00m
+                            Price = 40.00m,
+                            Quantity = 0
                         },
                         new
                         {
                             Id = 3,
                             ImageUrl = "item3.jpg",
                             Name = "Brake Pads",
-                            Price = 70.00m
+                            Price = 70.00m,
+                            Quantity = 0
                         },
                         new
                         {
                             Id = 4,
                             ImageUrl = "item4.jpg",
                             Name = "Wiper Blades",
-                            Price = 25.00m
+                            Price = 25.00m,
+                            Quantity = 0
                         });
                 });
 

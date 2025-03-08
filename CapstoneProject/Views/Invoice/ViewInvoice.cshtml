@@ -37,4 +37,4 @@
 <p><strong>Grand Total:</strong> $@Model.TotalPrice.ToString("0.00")</p>
 
 <a href="@Url.Action("AllInvoices", "Invoice")" class="btn btn-secondary">View All Invoices</a>
-<a href="@Url.Action("SelectItems", "Item")" class="btn btn-secondary">Back to Shop</a>
+<a asp-controller="Home" asp-action="Menu" class="btn btn-secondary">Back to Menu</a>

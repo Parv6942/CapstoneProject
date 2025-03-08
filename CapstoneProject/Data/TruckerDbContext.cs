@@ -13,6 +13,8 @@ namespace CapstoneProject.Data
         public DbSet<Transaction> Transactions { get; set; }
         public DbSet<Invoice> Invoices { get; set; }
         public DbSet<Truck> Trucks { get; set; }
+        public DbSet<AdminUser> AdminUsers { get; set; }
+
 
         public TruckerDbContext(DbContextOptions<TruckerDbContext> options) : base(options) { }
 
