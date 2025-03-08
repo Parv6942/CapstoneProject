@@ -1,0 +1,31 @@
+﻿@model IEnumerable<CapstoneProject.Models.Invoice>
+
+<h2>All Invoices</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Invoice ID</th>
+            <th>Trucker</th>
+            <th>Date</th>
+            <th>Total Price</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var invoice in Model)
+        {
+            <tr>
+                <td>@invoice.Id</td>
+                <td>@invoice.Trucker.FullName</td>
+                <td>@invoice.InvoiceDate.ToString("MMMM dd, yyyy")</td>
+                <td>$@invoice.TotalPrice.ToString("0.00")</td>
+                <td>
+                    <a href="@Url.Action("ViewInvoice", "Invoice", new { id = invoice.Id })" class="btn btn-primary">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("SelectItems", "Item")" class="btn btn-secondary">Back to Shop</a>

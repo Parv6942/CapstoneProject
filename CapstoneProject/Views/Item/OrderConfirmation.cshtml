@@ -1,0 +1,33 @@
+﻿@model CapstoneProject.Models.Invoice
+
+<h2>Invoice Details</h2>
+<p><strong>Invoice ID:</strong> @Model.Id</p>
+<p><strong>Trucker:</strong> @Model.Trucker.FullName</p>
+<p><strong>Date:</strong> @Model.InvoiceDate.ToString("MMMM dd, yyyy")</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var orderItem in Model.Order.Items)
+        {
+            <tr>
+                <td>@orderItem.Item.Name</td>
+                <td>@orderItem.Quantity</td>
+                <td>$@orderItem.Price.ToString("0.00")</td>
+                <td>$@(orderItem.Price * orderItem.Quantity).ToString("0.00")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p><strong>Grand Total:</strong> $@Model.TotalPrice.ToString("0.00")</p>
+
+<a href="@Url.Action("AllInvoices", "Invoice")" class="btn btn-secondary">View All Invoices</a>
+<a href="@Url.Action("SelectItems", "Item")" class="btn btn-secondary">Back to Shop</a>

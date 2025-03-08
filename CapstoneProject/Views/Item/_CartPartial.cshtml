@@ -6,11 +6,19 @@
         @foreach (var cartItem in Model)
         {
             <li class="cart-item">
+<<<<<<< HEAD
                 <span>@cartItem.Item.Name (x @cartItem.Quantity) - $@((cartItem.Item.Price * cartItem.Quantity).ToString("0.00"))</span>
             </li>
         }
     </ul>
     <p><strong>Total:</strong> $<span id="total-price">@Model.Sum(i => i.Item.Price * i.Quantity).ToString("0.00")</span></p>
+=======
+                <span>@cartItem.Name (x @cartItem.Quantity) - $@cartItem.TotalPrice.ToString("0.00")</span>
+            </li>
+        }
+    </ul>
+    <p><strong>Total:</strong> $<span id="total-price">@Model.Sum(i => i.TotalPrice).ToString("0.00")</span></p>
+>>>>>>> Emmanuel
 }
 else
 {

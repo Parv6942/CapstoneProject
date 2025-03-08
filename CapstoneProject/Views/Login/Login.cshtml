@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
 }
 
+<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html>
@@ -42,3 +43,32 @@
     </div>
 </body>
 </html>
+=======
+<div class="login-wrapper">
+    <div class="login-container">
+        <h2>Welcome Back</h2>
+        <p class="subtitle">Please enter your credentials to continue</p>
+
+        @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.Username, new { placeholder = "Username", @class = "input-field" })
+                @Html.ValidationMessageFor(m => m.Username, "", new { @class = "error-message" })
+            </div>
+            <div class="input-group">
+                @Html.PasswordFor(m => m.Password, new { placeholder = "Password", @class = "input-field" })
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "error-message" })
+            </div>
+            <button type="submit" class="btn-login">Login</button>
+        }
+
+        <div class="language-container">
+            <span>Select Language:</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="English" class="flag" title="English">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg" alt="French" class="flag" title="French">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" alt="Spanish" class="flag" title="Spanish">
+        </div>
+    </div>
+</div>
+>>>>>>> Emmanuel

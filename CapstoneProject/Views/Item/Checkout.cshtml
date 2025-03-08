@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿@model IEnumerable<dynamic>
 
 <h2>Checkout</h2>
@@ -28,3 +29,49 @@
     </select>
     <button type="submit" class="btn btn-success">Confirm Order</button>
 </form>
+=======
+﻿@model IEnumerable<CapstoneProject.Models.CartItem>
+
+<h2>Checkout</h2>
+@if (ViewBag.SelectedTrucker != null)
+{
+    <p><strong>Trucker Name:</strong> @ViewBag.SelectedTrucker.FullName</p>
+}
+else
+{
+    <p><strong>Trucker:</strong> Not Selected</p>
+}
+<table>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cartItem in Model)
+        {
+            <tr>
+                <td>@cartItem.Item.Name</td>
+                <td>@cartItem.Quantity</td>
+                <td>$@cartItem.Item.Price.ToString("0.00")</td>
+                <td>$@((cartItem.Item.Price * cartItem.Quantity).ToString("0.00"))</td> <!-- ✅ Fixed Here -->
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p><strong>Grand Total:</strong> $@Model.Sum(i => i.Item.Price * i.Quantity).ToString("0.00")</p>
+
+<form method="post" action="@Url.Action("ConfirmOrder", "Item")">
+    <button type="submit" class="btn btn-success">Confirm Order</button>
+</form>
+
+
+
+
+
+
+>>>>>>> Emmanuel

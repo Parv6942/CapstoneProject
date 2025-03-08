@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -66,3 +67,150 @@
 .footer-container {
     margin-top: 20px;
 }
+=======
+﻿/* Reset default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensures the whole page is structured properly */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: #333;
+}
+
+/* Header Styling */
+.main-header {
+    background: #5a67d8;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+.main-footer {
+    background: #434190;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login Wrapper */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Login Container */
+.login-container {
+    width: 380px;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+    /* Login Title */
+    .login-container h2 {
+        margin-bottom: 10px;
+        font-size: 26px;
+        font-weight: 600;
+        color: #4a4a4a;
+    }
+
+/* Subtitle */
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+    .input-field:focus {
+        border-color: #5a67d8;
+        outline: none;
+    }
+
+/* Error Message */
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Login Button */
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #5a67d8;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+    .btn-login:hover {
+        background-color: #434190;
+    }
+
+/* Language Selection */
+.language-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
+
+    .language-container .flag {
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+    }
+
+        .language-container .flag:hover {
+            transform: scale(1.1);
+        }
+>>>>>>> Emmanuel

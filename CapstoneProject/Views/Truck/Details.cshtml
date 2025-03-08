@@ -1,0 +1,17 @@
+﻿@model CapstoneProject.Models.Trucker
+
+@{
+    ViewData["Title"] = "Trucker Details";
+}
+
+<h1>@Model.FullName</h1>
+
+<h4>Trucks</h4>
+<ul>
+    @foreach (var truck in Model.Trucks)
+    {
+        <li>@truck.TruckNumber</li>
+    }
+</ul>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

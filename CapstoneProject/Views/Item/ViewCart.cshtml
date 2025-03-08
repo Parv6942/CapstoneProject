@@ -5,9 +5,17 @@
     @foreach (var cartItem in Model)
     {
         <li>
+<<<<<<< HEAD
             <span>@cartItem.Item.Name (x@cartItem.Quantity) - $@cartItem.Item.Price</span>
+=======
+            <span>@cartItem.Name (x@cartItem.Quantity) - $@cartItem.Price.ToString("0.00")</span>
+>>>>>>> Emmanuel
         </li>
     }
 </ul>
 
+<<<<<<< HEAD
 <p>Total: $@ViewBag.TotalPrice</p>
+=======
+<p><strong>Total:</strong> $@Model.Sum(i => i.TotalPrice).ToString("0.00")</p>
+>>>>>>> Emmanuel
