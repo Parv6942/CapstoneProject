@@ -1,0 +1,30 @@
+﻿@model IEnumerable<dynamic>
+
+<h2>Checkout</h2>
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Price</th>
+    </tr>
+    @foreach (var cartItem in Model)
+    {
+        <tr>
+            <td>@cartItem.Item.Name</td>
+            <td>@cartItem.Quantity</td>
+            <td>@(cartItem.Item.Price * cartItem.Quantity)</td>
+        </tr>
+    }
+</table>
+
+<h3>Select Trucker</h3>
+<form method="post" action="@Url.Action("ConfirmOrder", "Item")">
+    <select name="truckerId" required>
+        <option value="">Select a Trucker</option>
+        @foreach (var trucker in ViewBag.Truckers)
+        {
+            <option value="@trucker.Id">@trucker.Name</option>
+        }
+    </select>
+    <button type="submit" class="btn btn-success">Confirm Order</button>
+</form>

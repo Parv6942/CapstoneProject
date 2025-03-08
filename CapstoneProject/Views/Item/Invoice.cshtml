@@ -1,0 +1,60 @@
+﻿@model CapstoneProject.Models.InvoiceViewModel
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Invoice.css" asp-append-version="true" />
+}
+<div class="container">
+    <h2 class="section-title">Invoice</h2>
+
+    <!-- Back Button -->
+    <div class="back-button">
+        <a href="@Url.Action("SelectItems", "Item")">
+            <img src="https://cdn-icons-png.flaticon.com/512/860/860790.png" alt="Back to Shop" />
+        </a>
+    </div>
+
+
+    <!-- Trucker Details -->
+    <div class="invoice-details">
+        <h3>Trucker Details</h3>
+        <p><strong>Name:</strong> @(Model?.Trucker?.FullName ?? "N/A")</p>
+    </div>
+
+    <!-- Invoice Items -->
+    <div class="invoice-items">
+        <h3>Items Ordered</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model?.CartItems != null && Model.CartItems.Any())
+                {
+                    @foreach (var item in Model.CartItems)
+                    {
+                        <tr>
+                            <td>@item?.Item?.Name</td>
+                            <td>@item?.Quantity</td>
+                            <td>$@(item?.Item?.Price.ToString("0.00") ?? "N/A")</td>
+                            <td>$@((item?.Item?.Price * item?.Quantity)?.ToString("0.00") ?? "N/A")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr><td colspan="4">No items in the invoice.</td></tr>
+                }
+            </tbody>
+        </table>
+        <p><strong>Grand Total:</strong> $@(Model?.CartItems?.Sum(i => i.Item.Price * i.Quantity).ToString("0.00") ?? "0.00")</p>
+    </div>
+
+    <!-- Print Button -->
+    <button onclick="window.print();" class="btn btn-primary">Print Invoice</button>
+</div>
+

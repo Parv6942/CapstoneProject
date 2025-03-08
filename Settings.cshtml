@@ -1,0 +1,46 @@
+﻿@section Styles {
+    <link rel="stylesheet" href="~/css/settings-page.css" asp-append-version="true" />
+}
+
+<div class="top-nav">
+    <div class="logo-container">
+        <img src="~/images/logo.png" alt="SSP Logo" class="logo">
+    </div>
+
+    <div class="right-nav">
+        <a href="@Url.Action("Menu", "Home")" class="back-button">
+            <img src="~/images/return.png" alt="Back">
+        </a>
+
+        <div class="admin-profile">
+            <span>Admin</span>
+            <img src="~/images/admin.png" alt="Profile" class="profile-icon">
+        </div>
+    </div>
+</div>
+
+<!-- Settings Page Content -->
+<div class="settings-container">
+    <div class="settings-options">
+        <div class="settings-card">
+            <h3>Settings</h3>
+            <img src="~/images/settings.png" alt="Settings Icon" />
+            <p>Configure settings here</p>
+            <a href="@Url.Action("Settings", "Home")" class="btn">Enter</a>
+        </div>
+
+        <div class="settings-card">
+            <h3>Profile Edit</h3>
+            <img src="~/images/profile.png" alt="Profile Edit Icon" />
+            <p>Change your profile picture and more profile options here</p>
+            <a href="@Url.Action("ProfileEdit", "User")" class="btn">Enter</a>
+        </div>
+
+        <div class="settings-card">
+            <h3>User Adding/Role Edit</h3>
+            <img src="~/images/addUsers.png" alt="User Edit Icon" />
+            <p>This option is for Hiring positions and above. Allows for roles and addition of new users.</p>
+            <a href="@Url.Action("UserRoles", "Admin")" class="btn">Enter</a>
+        </div>
+    </div>
+</div>

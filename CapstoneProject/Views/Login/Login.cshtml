@@ -1,0 +1,44 @@
+﻿@model CapstoneProject.Models.LoginViewModel
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="~/css/login.css" />
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <div>
+                @Html.TextBoxFor(m => m.Username, new { placeholder = "Username" })
+                @Html.ValidationMessageFor(m => m.Username)
+            </div>
+            <div>
+                @Html.PasswordFor(m => m.Password, new { placeholder = "Password" })
+                @Html.ValidationMessageFor(m => m.Password)
+            </div>
+            <button type="submit">Login</button>
+        }
+
+        <!-- Language Selection -->
+        <div class="language-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="English" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg" alt="French" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" alt="Spanish" />
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-container">
+            <p>&copy; 2025 SSP. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

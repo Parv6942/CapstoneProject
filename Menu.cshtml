@@ -1,0 +1,50 @@
+﻿@section Styles {
+    <link rel="stylesheet" href="~/css/menu.css" asp-append-version="true" />
+}
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="top-nav">
+    <div class="logo-container">
+        <img src="~/images/logo.png" alt="SSP Logo" class="logo">
+    </div>
+
+    <div class="right-nav">
+        <a href="@Url.Action("Settings", "Home")" class="settings-icon">
+            <img src="~/images/iconSettings.png" alt="Settings">
+        </a>
+
+        <div class="admin-profile">
+            <span>Admin</span>
+            <img src="~/images/admin.png" alt="Profile" class="profile-icon">
+        </div>
+    </div>
+</div>
+
+<!-- Menu Options -->
+<div class="container d-flex flex-column justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="menu-options d-flex justify-content-center flex-wrap" style="margin-top: -30px;">
+
+        <div class="menu-card">
+            <img src="~/images/invoice.png" alt="Invoices" />
+            <h3>Invoices</h3>
+            <p>View and manage all invoices.</p>
+            <a href="@Url.Action("Invoices", "Invoice")" class="btn btn-primary">Enter</a>
+        </div>
+
+        <div class="menu-card">
+            <img src="~/images/drivers.png" alt="Truck Drivers" />
+            <h3>Truck Drivers</h3>
+            <p>Manage truck drivers and their details.</p>
+            <a href="@Url.Action("TruckerList", "Truck")" class="btn btn-primary">Enabled</a>
+        </div>
+
+        <div class="menu-card">
+            <img src="~/images/shop.png" alt="Shop Items" />
+            <h3>Shop Items</h3>
+            <p>View all items sold by the shop.</p>
+            <a href="@Url.Action("SelectItems", "Item")" class="btn btn-primary">Enabled</a>
+        </div>
+    </div>
+</div>
