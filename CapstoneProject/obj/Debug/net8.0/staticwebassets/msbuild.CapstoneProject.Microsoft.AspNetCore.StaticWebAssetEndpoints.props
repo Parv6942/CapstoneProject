@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CapstoneProject.c30t5zwxfx.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uHaEwyGmS/9ytZt0XL0ukdSQu\u002BMNfwJzxLsFL8xngGQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1133"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uHaEwyGmS/9ytZt0XL0ukdSQu\u002BMNfwJzxLsFL8xngGQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 17:39:46 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1133"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uHaEwyGmS/9ytZt0XL0ukdSQu\u002BMNfwJzxLsFL8xngGQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 11 Mar 2025 17:28:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CapstoneProject/CapstoneProject.c30t5zwxfx.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CapstoneProject.c30t5zwxfx.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c30t5zwxfx"},{"Name":"integrity","Value":"sha256-uHaEwyGmS/9ytZt0XL0ukdSQu\u002BMNfwJzxLsFL8xngGQ="},{"Name":"label","Value":"_content/CapstoneProject/CapstoneProject.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1133"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uHaEwyGmS/9ytZt0XL0ukdSQu\u002BMNfwJzxLsFL8xngGQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 17:39:46 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1133"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uHaEwyGmS/9ytZt0XL0ukdSQu\u002BMNfwJzxLsFL8xngGQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 11 Mar 2025 17:28:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CapstoneProject/css/add-trucker.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\add-trucker.css'))</AssetFile>

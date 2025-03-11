@@ -12,7 +12,8 @@ namespace CapstoneProject.Models
         [Required]
         public string Password { get; set; }
 
-        // Optionally, assign roles (e.g., "admin", "manager", etc.)
-        public string Role { get; set; }
+        // Flag to indicate if this user is the top admin.
+        public bool IsTopAdmin { get; set; }
+
     }
 }

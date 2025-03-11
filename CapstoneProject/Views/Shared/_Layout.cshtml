@@ -26,6 +26,12 @@
                         </li>
                     </ul>
                 </div>
+                @if (User.Identity.IsAuthenticated && User.Identity.Name == "Admin")
+                {
+                    <li>
+                        <a href="@Url.Action("Index", "AdminUser")">Manage Admin Users</a>
+                    </li>
+                }
             </div>
         </nav>
     </header>

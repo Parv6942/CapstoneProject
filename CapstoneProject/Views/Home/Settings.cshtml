@@ -1,6 +1,20 @@
 ﻿@section Styles {
     <link rel="stylesheet" href="~/css/settings-page.css" asp-append-version="true" />
 }
+@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Settings";
+    // Retrieve the username from session (or from User.Identity, if set properly)
+    var username = ViewContext.HttpContext.Session.GetString("Username");
+    // Alternatively, if you're using claims, you might use User.Identity.Name
+    bool isTopAdmin = !string.IsNullOrEmpty(username) &&
+                      string.Equals(username, "Admin", StringComparison.OrdinalIgnoreCase);
+}
+
+@if (isTopAdmin)
+{
+    <a href="@Url.Action("Index", "AdminUser")" class="btn">Manage Admin Users</a>
+}
 
 <div class="settings-container">
     <!-- Top-right back button -->
@@ -28,12 +42,15 @@
             <a href="@Url.Action("ProfileEdit", "User")" class="btn">Enter</a>
         </div>
 
-        <!-- User Adding/Role Edit Section -->
-        <div class="settings-card">
-            <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="User Edit Icon" />
-            <h3>User Adding/Role Edit</h3>
-            <p>This option is for Hiring positions and above. Allows for roles and addition of new users.</p>
-            <a href="@Url.Action("UserRoles", "Admin")" class="btn">Enter</a>
-        </div>
+        <!-- User Adding/Role Edit Section (only visible to top admin) -->
+        @if (isTopAdmin)
+        {
+            <div class="settings-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="User Edit Icon" />
+                <h3>User Adding/Role Edit</h3>
+                <p>This option is for Hiring positions and above. Allows for roles and addition of new users.</p>
+                <a href="@Url.Action("Index", "AdminUser")" class="btn">Enter</a>
+            </div>
+        }
     </div>
 </div>

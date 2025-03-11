@@ -1,10 +1,19 @@
-﻿using CapstoneProject.Models;
+﻿using CapstoneProject.Data;
+using CapstoneProject.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace CapstoneProject.Controllers
 {
     public class LoginController : Controller
     {
+        private readonly TruckerDbContext _context;
+
+        public LoginController(TruckerDbContext context)
+        {
+            _context = context;
+        }
+
         // GET: Login
         [HttpGet]
         public ActionResult Login()
@@ -19,19 +28,21 @@ namespace CapstoneProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Replace this with real authentication logic (e.g., database check)
-                if (model.Username == "Admin" && model.Password == "Password123")
+                // Query the database for a matching admin user
+                var user = _context.AdminUsers
+                    .FirstOrDefault(u => u.Username == model.Username && u.Password == model.Password);
+
+                if (user != null)
                 {
-                    // Redirect to the Menu action in the HomeController
+                    // Credentials verified, store the username in session
+                    HttpContext.Session.SetString("Username", user.Username);
                     return RedirectToAction("Menu", "Home");
                 }
                 else
                 {
-                    // Add an error message for invalid login
                     ModelState.AddModelError("", "Invalid username or password");
                 }
             }
-
             return View(model);
         }
     }

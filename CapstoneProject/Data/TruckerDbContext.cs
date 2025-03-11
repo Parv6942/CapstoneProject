@@ -145,8 +145,11 @@ namespace CapstoneProject.Data
             );
 
 
+            modelBuilder.Entity<AdminUser>().HasData(
+                new AdminUser { Id = 1, Username = "Admin", Password = "Password123", IsTopAdmin = true }
+            );
 
-            // ✅ SEED DATA: Items
+
             modelBuilder.Entity<Item>().HasData(
                 new Item { Id = 1, Name = "Tire", Price = 120.00m, ImageUrl = "item1.jpg" },
                 new Item { Id = 2, Name = "Oil", Price = 40.00m, ImageUrl = "item2.jpeg" },

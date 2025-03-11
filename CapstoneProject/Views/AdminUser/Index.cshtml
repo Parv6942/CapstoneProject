@@ -1,0 +1,45 @@
+﻿@model IEnumerable<CapstoneProject.Models.AdminUser>
+@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Admin Users";
+    var loggedUsername = ViewContext.HttpContext.Session.GetString("Username");
+    bool isTopAdmin = loggedUsername == "Admin";
+}
+
+<h1>Admin Users</h1>
+
+@if (isTopAdmin)
+{
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Add New Admin User</a>
+    </p>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Is Top Admin</th>
+            @if (isTopAdmin)
+            {
+                <th>Actions</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Username</td>
+                <td>@(user.IsTopAdmin ? "Yes" : "No")</td>
+                @if (isTopAdmin)
+                {
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-warning">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@user.Id" class="btn btn-danger">Delete</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
