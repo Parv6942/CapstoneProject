@@ -1,5 +1,4 @@
-﻿/* Navbar Styling */
-.top-nav {
+﻿.top-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +27,6 @@
     gap: 20px;
 }
 
-/* Removed Purple Background from Back Button */
 .back-button img {
     width: 30px;
     height: 30px;
@@ -40,7 +38,6 @@
         opacity: 0.7;
     }
 
-/* Admin Profile */
 .admin-profile {
     display: flex;
     align-items: center;
@@ -62,7 +59,6 @@
         transform: scale(1.1);
     }
 
-/* Settings Page Content */
 .settings-container {
     display: flex;
     flex-direction: column;
@@ -79,7 +75,6 @@
     flex-wrap: wrap;
 }
 
-/* Settings Card - Added Rounded Borders */
 .settings-card {
     width: 260px;
     height: 260px;
@@ -88,8 +83,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: #f9f9f9;
-    border: 2px solid #6b4ca3; /* Added Purple Borders */
-    border-radius: 60px; /* Rounded Corners */
+    border: 2px solid #6b4ca3; 
+    border-radius: 60px; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 20px;
@@ -158,19 +153,17 @@
         border: 3px solid #136d26; 
         box-shadow: 0px 6px 18px rgba(19, 109, 38, 0.5); 
     }
-    /* Settings Button - Matches Purple Theme */
     .settings-card:nth-child(1) .btn {
-        background-color: #7a3db8; /* Darker Purple */
-        border: 2px solid #5b2d8f; /* Matching Border */
+        background-color: #7a3db8; 
+        border: 2px solid #5b2d8f;
     }
 
         .settings-card:nth-child(1) .btn:hover {
-            background-color: #5b2d8f; /* Darker Hover Effect */
+            background-color: #5b2d8f; 
         }
 
-    /* Profile Edit Button - Matches Blue Theme */
     .settings-card:nth-child(2) .btn {
-        background-color: #3687e3; /* Dark Blue */
+        background-color: #3687e3; 
         border: 2px solid #2165b5;
     }
 
@@ -178,9 +171,8 @@
             background-color: #2165b5;
         }
 
-    /* User Adding/Role Edit Button - Matches Green Theme */
     .settings-card:nth-child(3) .btn {
-        background-color: #1b7f3b; /* Dark Green */
+        background-color: #1b7f3b; 
         border: 2px solid #136d26;
     }
 

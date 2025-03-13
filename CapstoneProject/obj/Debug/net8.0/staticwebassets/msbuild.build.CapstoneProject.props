@@ -1,4 +1,7 @@
 ﻿<Project>
+<<<<<<< HEAD
   <Import Project="Microsoft.AspNetCore.StaticWebAssetEndpoints.props" />
+=======
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
   <Import Project="Microsoft.AspNetCore.StaticWebAssets.props" />
 </Project>

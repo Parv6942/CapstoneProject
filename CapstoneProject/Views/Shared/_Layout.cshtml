@@ -12,6 +12,7 @@
 
 <body>
     <header>
+<<<<<<< HEAD
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CapstoneProject</a>
@@ -32,17 +33,147 @@
             </div>
         </nav>
     </header>
+=======
+        <nav class="navbar">
+            <div class="navbar-left">
+                <img src="~/images/ssp-logo.png" alt="SSP Logo" class="navbar-logo">
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:history.back()" class="nav-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Back" class="back-icon">
+                </a>
+                <span class="admin-text">Admin</span>
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Admin" class="admin-icon">
+            </div>
+        </nav>
+
+        <style>
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 30px;
+                background: white;
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                height: 70px; 
+            }
+
+            .navbar-left {
+                display: flex;
+                align-items: center;
+            }
+
+            .navbar-logo {
+                width: 150px; 
+                height: auto;
+            }
+
+            .navbar-right {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .nav-icon {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+            }
+
+            .back-icon {
+                width: 30px;
+                height: 30px;
+                background: #6b4ca3;
+                padding: 8px;
+                border-radius: 50%;
+            }
+
+            .admin-text {
+                font-weight: bold;
+                color: black;
+            }
+
+            .admin-icon {
+                width: 35px; 
+                height: 35px;
+                border-radius: 50%;
+                background: #e6e1fa;
+                padding: 5px;
+            }
+        </style>
+    </header>
+
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
+<<<<<<< HEAD
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2025 - CapstoneProject - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+=======
+    <footer class="footer">
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+            </a>
+        </div>
+        <div class="footer-text">
+            © 2025
+        </div>
+    </footer>
+
+    <style>
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: white;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 25px; 
+            margin-bottom: 5px;
+        }
+
+            .social-media img {
+                width: 24px; 
+                height: auto;
+                transition: transform 0.2s ease-in-out;
+            }
+
+                .social-media img:hover {
+                    transform: scale(1.1);
+                }
+
+        .footer-text {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+
+
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

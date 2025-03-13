@@ -5455,11 +5455,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\parvs\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\shrey\\.nuget\\packages\\": {}
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "E:\\Git Projects\\Capstone\\CapstoneProject\\CapstoneProject.csproj",
       "projectName": "CapstoneProject",
       "projectPath": "E:\\Git Projects\\Capstone\\CapstoneProject\\CapstoneProject.csproj",
@@ -5468,6 +5473,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\parvs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\CapstoneProject.csproj",
+      "projectName": "CapstoneProject",
+      "projectPath": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\CapstoneProject.csproj",
+      "packagesPath": "C:\\Users\\shrey\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\shrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5475,6 +5490,10 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+=======
+        "C:\\Program Files\\dotnet\\library-packs": {},
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5544,7 +5563,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
       }
     }
   }
