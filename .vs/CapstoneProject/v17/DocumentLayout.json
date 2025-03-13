@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "E:\\Git Projects\\Capstone\\",
   "Documents": [
     {
@@ -85,6 +86,85 @@
     {
       "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|E:\\Git Projects\\Capstone\\capstoneproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\item\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\home\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\home\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\wwwroot\\css\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\wwwroot\\css\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\wwwroot\\css\\settings-page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\wwwroot\\css\\settings-page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\controllers\\truckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\controllers\\truckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\wwwroot\\css\\selectitems.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\wwwroot\\css\\selectitems.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\item\\selectitems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\selectitems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\wwwroot\\css\\invoice.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\wwwroot\\css\\invoice.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\models\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\models\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\item\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\item\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\models\\trucker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\trucker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
     }
   ],
   "DocumentGroupContainers": [
@@ -94,6 +174,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 5,
           "Children": [
             {
@@ -107,10 +188,30 @@
               "ViewState": "AQIAAEsAAAAAAAAAAAAmwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T22:42:08.664Z",
+=======
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "menu.css",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\menu.css",
+              "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\menu.css",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\menu.css",
+              "RelativeToolTip": "CapstoneProject\\wwwroot\\css\\menu.css",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-07T01:51:57.981Z",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "LoginController.cs",
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Controllers\\LoginController.cs",
@@ -120,10 +221,34 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T22:42:06.996Z",
+=======
+              "DocumentIndex": 6,
+              "Title": "settings-page.css",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\settings-page.css",
+              "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\settings-page.css",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\settings-page.css",
+              "RelativeToolTip": "CapstoneProject\\wwwroot\\css\\settings-page.css",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAUwL0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-07T00:53:19.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Home\\Menu.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Home\\Menu.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Home\\Menu.cshtml",
+              "RelativeToolTip": "CapstoneProject\\Views\\Home\\Menu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T18:19:19.414Z",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 11,
               "Title": "_CartPartial.cshtml",
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Views\\Item\\_CartPartial.cshtml",
@@ -145,10 +270,23 @@
               "ViewState": "AgIAABIAAAAAAAAAAAAowCAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T20:57:30.739Z"
+=======
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "CapstoneProject\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T21:24:18.757Z",
+              "EditorCaption": ""
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+<<<<<<< HEAD
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Session\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Session\\SessionExtensions.cs",
@@ -168,12 +306,21 @@
               "ToolTip": "E:\\Git Projects\\Capstone\\CapstoneProject\\Controllers\\ItemController.cs",
               "RelativeToolTip": "CapstoneProject\\Controllers\\ItemController.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
+=======
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "CapstoneProject\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAASwBUAAAAMAAAAAAAAAA==",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T18:20:18.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "CartItem.cs",
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Models\\CartItem.cs",
@@ -184,14 +331,44 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T20:29:44.963Z",
               "EditorCaption": ""
+=======
+              "DocumentIndex": 7,
+              "Title": "TruckController.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Controllers\\TruckController.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Controllers\\TruckController.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Controllers\\TruckController.cs",
+              "RelativeToolTip": "CapstoneProject\\Controllers\\TruckController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAewDkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T22:42:08.664Z"
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+<<<<<<< HEAD
               "Title": "Item.cs",
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Models\\Item.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\Item.cs",
               "ToolTip": "E:\\Git Projects\\Capstone\\CapstoneProject\\Models\\Item.cs",
+=======
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\CartItem.cs",
+              "RelativeToolTip": "CapstoneProject\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T20:29:44.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\Item.cs",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "RelativeToolTip": "CapstoneProject\\Models\\Item.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,11 +376,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Program.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Program.cs",
               "ToolTip": "E:\\Git Projects\\Capstone\\CapstoneProject\\Program.cs",
+=======
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Program.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Program.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Program.cs",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "RelativeToolTip": "CapstoneProject\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -211,11 +396,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 19,
               "Title": "Trucker.cs",
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Models\\Trucker.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\Trucker.cs",
               "ToolTip": "E:\\Git Projects\\Capstone\\CapstoneProject\\Models\\Trucker.cs",
+=======
+              "DocumentIndex": 18,
+              "Title": "Trucker.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\Trucker.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Models\\Trucker.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\Trucker.cs",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "RelativeToolTip": "CapstoneProject\\Models\\Trucker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -223,6 +416,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 20,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Views\\Shared\\_Layout.cshtml",
@@ -240,6 +434,13 @@
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Views\\Item\\Checkout.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\Checkout.cshtml",
               "ToolTip": "E:\\Git Projects\\Capstone\\CapstoneProject\\Views\\Item\\Checkout.cshtml",
+=======
+              "DocumentIndex": 17,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\Checkout.cshtml",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "RelativeToolTip": "CapstoneProject\\Views\\Item\\Checkout.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -247,6 +448,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 15,
               "Title": "Menu.cshtml",
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Views\\Home\\Menu.cshtml",
@@ -266,17 +468,34 @@
               "ToolTip": "E:\\Git Projects\\Capstone\\CapstoneProject\\Views\\Item\\Invoice.cshtml",
               "RelativeToolTip": "CapstoneProject\\Views\\Item\\Invoice.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+=======
+              "DocumentIndex": 0,
+              "Title": "Invoice.cshtml",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\Invoice.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\Invoice.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\Invoice.cshtml",
+              "RelativeToolTip": "CapstoneProject\\Views\\Item\\Invoice.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-14T15:10:35.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 12,
               "Title": "CartItemViewModel.cs",
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Models\\CartItemViewModel.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\CartItemViewModel.cs",
               "ToolTip": "E:\\Git Projects\\Capstone\\CapstoneProject\\Models\\CartItemViewModel.cs",
+=======
+              "DocumentIndex": 14,
+              "Title": "CartItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\CartItemViewModel.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Models\\CartItemViewModel.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\CartItemViewModel.cs",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "RelativeToolTip": "CapstoneProject\\Models\\CartItemViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -286,9 +505,15 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "ViewCart.cshtml",
+<<<<<<< HEAD
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Views\\Item\\ViewCart.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\ViewCart.cshtml",
               "ToolTip": "E:\\Git Projects\\Capstone\\CapstoneProject\\Views\\Item\\ViewCart.cshtml",
+=======
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\ViewCart.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\ViewCart.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\ViewCart.cshtml",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "RelativeToolTip": "CapstoneProject\\Views\\Item\\ViewCart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -296,6 +521,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 13,
               "Title": "Settings.cshtml",
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Views\\Home\\Settings.cshtml",
@@ -313,6 +539,26 @@
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Models\\InvoiceViewModel.cs",
               "RelativeDocumentMoniker": "CapstoneProject\\Models\\InvoiceViewModel.cs",
               "ToolTip": "E:\\Git Projects\\Capstone\\CapstoneProject\\Models\\InvoiceViewModel.cs",
+=======
+              "DocumentIndex": 1,
+              "Title": "Settings.cshtml",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Home\\Settings.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Home\\Settings.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Home\\Settings.cshtml",
+              "RelativeToolTip": "CapstoneProject\\Views\\Home\\Settings.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T22:17:20.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InvoiceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\InvoiceViewModel.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Models\\InvoiceViewModel.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\InvoiceViewModel.cs",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "RelativeToolTip": "CapstoneProject\\Models\\InvoiceViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -320,11 +566,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 7,
               "Title": "Invoice.css",
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\wwwroot\\css\\Invoice.css",
               "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\Invoice.css",
               "ToolTip": "E:\\Git Projects\\Capstone\\CapstoneProject\\wwwroot\\css\\Invoice.css",
+=======
+              "DocumentIndex": 11,
+              "Title": "Invoice.css",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\Invoice.css",
+              "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\Invoice.css",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\Invoice.css",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "RelativeToolTip": "CapstoneProject\\wwwroot\\css\\Invoice.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -334,9 +588,15 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "SelectItems.css",
+<<<<<<< HEAD
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\wwwroot\\css\\SelectItems.css",
               "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\SelectItems.css",
               "ToolTip": "E:\\Git Projects\\Capstone\\CapstoneProject\\wwwroot\\css\\SelectItems.css",
+=======
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\SelectItems.css",
+              "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\SelectItems.css",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\SelectItems.css",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "RelativeToolTip": "CapstoneProject\\wwwroot\\css\\SelectItems.css",
               "ViewState": "AgIAAKUAAAAAAAAAAAAAAKsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -344,6 +604,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 6,
               "Title": "SelectItems.cshtml",
               "DocumentMoniker": "E:\\Git Projects\\Capstone\\CapstoneProject\\Views\\Item\\SelectItems.cshtml",
@@ -351,6 +612,15 @@
               "ToolTip": "E:\\Git Projects\\Capstone\\CapstoneProject\\Views\\Item\\SelectItems.cshtml",
               "RelativeToolTip": "CapstoneProject\\Views\\Item\\SelectItems.cshtml",
               "ViewState": "AgIAADgAAAAAAAAAAAAwwFYAAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 9,
+              "Title": "SelectItems.cshtml",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\SelectItems.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\SelectItems.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\SelectItems.cshtml",
+              "RelativeToolTip": "CapstoneProject\\Views\\Item\\SelectItems.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwE8AAAATAAAAAAAAAA==",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-13T18:16:23.807Z"
             }

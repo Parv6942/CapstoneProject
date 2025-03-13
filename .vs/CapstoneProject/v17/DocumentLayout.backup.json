@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\",
   "Documents": [
     {
@@ -73,6 +74,85 @@
     {
       "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\oluwa\\onedrive\\desktop\\documents\\school\\notes\\semester 4\\capstones\\capstoneproject\\capstoneproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\item\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\home\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\home\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\wwwroot\\css\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\wwwroot\\css\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\wwwroot\\css\\settings-page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\wwwroot\\css\\settings-page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\controllers\\truckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\controllers\\truckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\wwwroot\\css\\selectitems.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\wwwroot\\css\\selectitems.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\item\\selectitems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\selectitems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\wwwroot\\css\\invoice.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\wwwroot\\css\\invoice.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\models\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\models\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\item\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\views\\item\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\views\\item\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|c:\\users\\shrey\\downloads\\capstoneproject-parv\\capstoneproject-parv\\capstoneproject\\models\\trucker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251018E4-F968-48F8-BC87-5CC86EC0A82D}|CapstoneProject\\CapstoneProject.csproj|solutionrelative:capstoneproject\\models\\trucker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
     }
   ],
   "DocumentGroupContainers": [
@@ -82,6 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -99,22 +180,174 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+=======
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "menu.css",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\menu.css",
+              "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\menu.css",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\menu.css",
+              "RelativeToolTip": "CapstoneProject\\wwwroot\\css\\menu.css",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-07T01:51:57.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "settings-page.css",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\settings-page.css",
+              "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\settings-page.css",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\settings-page.css",
+              "RelativeToolTip": "CapstoneProject\\wwwroot\\css\\settings-page.css",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAUwL0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-07T00:53:19.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Home\\Menu.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Home\\Menu.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Home\\Menu.cshtml",
+              "RelativeToolTip": "CapstoneProject\\Views\\Home\\Menu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T18:19:19.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "CapstoneProject\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T21:24:18.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "CapstoneProject\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAASwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:20:18.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TruckController.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Controllers\\TruckController.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Controllers\\TruckController.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Controllers\\TruckController.cs",
+              "RelativeToolTip": "CapstoneProject\\Controllers\\TruckController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAewDkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T22:42:08.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\CartItem.cs",
+              "RelativeToolTip": "CapstoneProject\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T20:29:44.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\Item.cs",
+              "RelativeToolTip": "CapstoneProject\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T20:28:31.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Program.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Program.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Program.cs",
+              "RelativeToolTip": "CapstoneProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T20:25:34.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Trucker.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\Trucker.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Models\\Trucker.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\Trucker.cs",
+              "RelativeToolTip": "CapstoneProject\\Models\\Trucker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:50:32.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\Checkout.cshtml",
+              "RelativeToolTip": "CapstoneProject\\Views\\Item\\Checkout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T18:26:48.819Z"
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Invoice.cshtml",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Item\\Invoice.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\Invoice.cshtml",
               "ToolTip": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Item\\Invoice.cshtml",
               "RelativeToolTip": "CapstoneProject\\Views\\Item\\Invoice.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAwwCIAAAAUAAAAAAAAAA==",
+=======
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\Invoice.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\Invoice.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\Invoice.cshtml",
+              "RelativeToolTip": "CapstoneProject\\Views\\Item\\Invoice.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-14T15:10:35.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "InvoiceViewModel.cs",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Models\\InvoiceViewModel.cs",
@@ -135,6 +368,39 @@
               "ToolTip": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Home\\Settings.cshtml",
               "RelativeToolTip": "CapstoneProject\\Views\\Home\\Settings.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 14,
+              "Title": "CartItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\CartItemViewModel.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Models\\CartItemViewModel.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\CartItemViewModel.cs",
+              "RelativeToolTip": "CapstoneProject\\Models\\CartItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T21:21:52.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ViewCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\ViewCart.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\ViewCart.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\ViewCart.cshtml",
+              "RelativeToolTip": "CapstoneProject\\Views\\Item\\ViewCart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T21:24:23.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Settings.cshtml",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Home\\Settings.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Home\\Settings.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Home\\Settings.cshtml",
+              "RelativeToolTip": "CapstoneProject\\Views\\Home\\Settings.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-13T22:17:20.503Z",
               "EditorCaption": ""
@@ -142,6 +408,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
+<<<<<<< HEAD
               "Title": "ViewCart.cshtml",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Item\\ViewCart.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\ViewCart.cshtml",
@@ -294,10 +561,21 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-13T18:26:48.819Z",
               "EditorCaption": ""
+=======
+              "Title": "InvoiceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\InvoiceViewModel.cs",
+              "RelativeDocumentMoniker": "CapstoneProject\\Models\\InvoiceViewModel.cs",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Models\\InvoiceViewModel.cs",
+              "RelativeToolTip": "CapstoneProject\\Models\\InvoiceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:53:58.411Z"
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+<<<<<<< HEAD
               "Title": "Menu.cshtml",
               "DocumentMoniker": "C:\\Users\\oluwa\\OneDrive\\Desktop\\Documents\\school\\notes\\Semester 4\\Capstones\\CapstoneProject\\CapstoneProject\\Views\\Home\\Menu.cshtml",
               "RelativeDocumentMoniker": "CapstoneProject\\Views\\Home\\Menu.cshtml",
@@ -333,6 +611,40 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-13T18:16:23.807Z",
               "EditorCaption": ""
+=======
+              "Title": "Invoice.css",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\Invoice.css",
+              "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\Invoice.css",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\Invoice.css",
+              "RelativeToolTip": "CapstoneProject\\wwwroot\\css\\Invoice.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-14T15:15:46.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SelectItems.css",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\SelectItems.css",
+              "RelativeDocumentMoniker": "CapstoneProject\\wwwroot\\css\\SelectItems.css",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\wwwroot\\css\\SelectItems.css",
+              "RelativeToolTip": "CapstoneProject\\wwwroot\\css\\SelectItems.css",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAAKsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-13T18:17:28.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SelectItems.cshtml",
+              "DocumentMoniker": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\SelectItems.cshtml",
+              "RelativeDocumentMoniker": "CapstoneProject\\Views\\Item\\SelectItems.cshtml",
+              "ToolTip": "C:\\Users\\shrey\\Downloads\\CapstoneProject-parv\\CapstoneProject-parv\\CapstoneProject\\Views\\Item\\SelectItems.cshtml",
+              "RelativeToolTip": "CapstoneProject\\Views\\Item\\SelectItems.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwE8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T18:16:23.807Z"
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
             }
           ]
         }

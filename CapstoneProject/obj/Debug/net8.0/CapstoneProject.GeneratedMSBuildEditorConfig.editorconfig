@@ -17,12 +17,17 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CapstoneProject
 build_property.RootNamespace = CapstoneProject
+<<<<<<< HEAD
 build_property.ProjectDir = E:\Git Projects\Capstone\CapstoneProject\
+=======
+build_property.ProjectDir = C:\Users\shrey\Downloads\CapstoneProject-parv\CapstoneProject-parv\CapstoneProject\
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = E:\Git Projects\Capstone\CapstoneProject
 build_property._RazorSourceGeneratorDebug = 
 
@@ -99,5 +104,83 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Git Projects/Capstone/CapstoneProject/Views/Shared/_Layout.cshtml]
+=======
+build_property.MSBuildProjectDirectory = C:\Users\shrey\Downloads\CapstoneProject-parv\CapstoneProject-parv\CapstoneProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Home/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Home/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXR0aW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Item/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Item/Invoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxJbnZvaWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Item/SelectItems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxTZWxlY3RJdGVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Item/ViewCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxWaWV3Q2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Item/_CartPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxfQ2FydFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Truck/AddTrucker.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1Y2tcQWRkVHJ1Y2tlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Truck/InputTrucker.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1Y2tcSW5wdXRUcnVja2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Truck/TruckerList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1Y2tcVHJ1Y2tlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Truck/TruckerSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1Y2tcVHJ1Y2tlclN1bW1hcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shrey/Downloads/CapstoneProject-parv/CapstoneProject-parv/CapstoneProject/Views/Shared/_Layout.cshtml]
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vfnnynxfui

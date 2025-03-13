@@ -2,6 +2,7 @@
     <link rel="stylesheet" href="~/css/settings-page.css" asp-append-version="true" />
 }
 
+<<<<<<< HEAD
 <div class="settings-container">
     <!-- Top-right back button -->
     <div class="back-button">
@@ -16,22 +17,59 @@
         <div class="settings-card">
             <img src="https://cdn-icons-png.flaticon.com/512/3524/3524659.png" alt="Settings Icon" />
             <h3>Settings</h3>
+=======
+<div class="top-nav">
+    <div class="logo-container">
+        <img src="~/images/logo.png" alt="SSP Logo" class="logo">
+    </div>
+
+    <div class="right-nav">
+        <a href="@Url.Action("Menu", "Home")" class="back-button">
+            <img src="~/images/return.png" alt="Back">
+        </a>
+
+        <div class="admin-profile">
+            <span>Admin</span>
+            <img src="~/images/admin.png" alt="Profile" class="profile-icon">
+        </div>
+    </div>
+</div>
+
+<!-- Settings Page Content -->
+<div class="settings-container">
+    <div class="settings-options">
+        <div class="settings-card">
+            <h3>Settings</h3>
+            <img src="~/images/settings.png" alt="Settings Icon" />
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
             <p>Configure settings here</p>
             <a href="@Url.Action("Settings", "Home")" class="btn">Enter</a>
         </div>
 
+<<<<<<< HEAD
         <!-- Profile Edit Section -->
         <div class="settings-card">
             <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Profile Edit Icon" />
             <h3>Profile Edit</h3>
+=======
+        <div class="settings-card">
+            <h3>Profile Edit</h3>
+            <img src="~/images/profile.png" alt="Profile Edit Icon" />
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
             <p>Change your profile picture and more profile options here</p>
             <a href="@Url.Action("ProfileEdit", "User")" class="btn">Enter</a>
         </div>
 
+<<<<<<< HEAD
         <!-- User Adding/Role Edit Section -->
         <div class="settings-card">
             <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="User Edit Icon" />
             <h3>User Adding/Role Edit</h3>
+=======
+        <div class="settings-card">
+            <h3>User Adding/Role Edit</h3>
+            <img src="~/images/addUsers.png" alt="User Edit Icon" />
+>>>>>>> cb8ead6 (Updated files with layout fixes and new style in settings)
             <p>This option is for Hiring positions and above. Allows for roles and addition of new users.</p>
             <a href="@Url.Action("UserRoles", "Admin")" class="btn">Enter</a>
         </div>
