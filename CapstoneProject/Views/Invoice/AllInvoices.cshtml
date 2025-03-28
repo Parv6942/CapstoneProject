@@ -1,7 +1,10 @@
 ﻿@model IEnumerable<CapstoneProject.Models.Invoice>
 
 <h2>All Invoices</h2>
-<p> <a asp-controller="Home" asp-action="Menu" class="btn btn-secondary">Back to Menu</a></p>
+<p>
+    <a asp-controller="Home" asp-action="Menu" class="btn btn-secondary">Back to Menu</a>
+    <a href="@Url.Action("SelectItems", "Item")" class="btn btn-primary ml-2">Add Invoice</a>
+</p>
 
 <table class="table">
     <thead>
@@ -28,5 +31,3 @@
         }
     </tbody>
 </table>
-
-<a href="@Url.Action("SelectItems", "Item")" class="btn btn-secondary">Back to Shop</a>

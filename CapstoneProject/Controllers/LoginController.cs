@@ -28,19 +28,21 @@ namespace CapstoneProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Query the database for a matching admin user
-                var user = _context.AdminUsers
-                    .FirstOrDefault(u => u.Username == model.Username && u.Password == model.Password);
-
-                if (user != null)
+                // First, check if the user exists by username
+                var user = _context.AdminUsers.FirstOrDefault(u => u.Username == model.Username);
+                if (user == null)
                 {
-                    // Credentials verified, store the username in session
-                    HttpContext.Session.SetString("Username", user.Username);
-                    return RedirectToAction("Menu", "Home");
+                    ModelState.AddModelError("Username", "The username does not exist.");
+                }
+                else if (user.Password != model.Password)
+                {
+                    ModelState.AddModelError("Password", "The password is incorrect.");
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Invalid username or password");
+                    // Credentials verified, store the username in session and redirect
+                    HttpContext.Session.SetString("Username", user.Username);
+                    return RedirectToAction("Menu", "Home");
                 }
             }
             return View(model);

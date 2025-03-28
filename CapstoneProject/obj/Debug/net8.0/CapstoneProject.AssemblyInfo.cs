@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CapstoneProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3fb7dc4145d146bca1ae2c3a61f770c9ffbc3d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea151ed0733f857e78a67e339d799d920656904c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CapstoneProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CapstoneProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
