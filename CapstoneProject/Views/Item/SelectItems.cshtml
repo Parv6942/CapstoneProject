@@ -21,6 +21,8 @@
                 <img src="@Url.Content("~/images/" + item.ImageUrl)" alt="@item.Name" class="item-image" />
                 <h4>@item.Name</h4>
                 <p class="item-price">Price: $@item.Price.ToString("0.00")</p>
+                <!-- New: Display available quantity -->
+                <p class="available-quantity">Available: @item.Quantity</p>
                 <div class="quantity-container">
                     <label>Quantity:</label>
                     <input type="number" class="quantity-input" data-id="@item.Id" min="1" value="1" />
@@ -39,7 +41,6 @@
         <div class="receipt-details" id="receipt-details">Loading receipt...</div>
     </div>
 
-
     <!-- Trucker Selection Form -->
     <form id="truckerForm" method="post" action="@Url.Action("SetTrucker", "Item")">
         <label for="truckerId">Select Trucker:</label>
@@ -52,8 +53,6 @@
         </select>
         <button type="submit" class="btn btn-submit">Submit</button>
     </form>
-
-
 </div>
 
 @section Scripts {
@@ -93,5 +92,4 @@
             updateReceipt(); // Ensure receipt loads initially
         });
     </script>
-
 }
